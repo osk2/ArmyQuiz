@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>國軍姿勢王</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="http://csshake.surge.sh/csshake.min.css">
+	<style>
+		.container {
+			height: 100vh;
+			background-image: url('img/background.png');
+			background-position: center center;
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-size: cover;
+		}
+
+		.row-profile {
+			margin-bottom: 2em;
+		}
+
+		.profile-container {
+			text-align: center;
+		}
+
+		.thumbnail {
+			display: inline-block;
+			border-radius: 0;
+		}
+
+		.thumbnail .caption {
+			padding: 0;
+		}
+
+		img.profile_image {
+			max-width: 100px;
+		}
+
+		.quiz-container {
+			text-align: center;
+			height: 100%;
+			min-height: 250px;
+		}
+
+		.quiz-text {
+			color: #FFF;
+			margin-bottom: 2em;
+		}
+
+		@media (min-width: 768px) {
+			.current-score {
+				color: #FFF;
+				font-size: 9em;
+			}
+		}
+
+		@media (max-width: 767px) {
+			.current-score {
+				color: #FFF;
+				font-size: 5em;
+			}
+		}
+
+		.btn-answer {
+			margin-bottom: 1em;
+		}
+
+		.btn-correct { 
+			color: #ffffff; 
+			background-color: #1cb393; 
+			border-color: #1baf90; 
+		} 
+		 
+		.btn-correct:hover, 
+		.btn-correct:focus, 
+		.btn-correct:active, 
+		.btn-correct.active { 
+			color: #ffffff; 
+			background-color: #06a187; 
+			border-color: #1baf90; 
+		}
+		 
+		.btn-correct.disabled, 
+		.btn-correct[disabled], 
+		fieldset[disabled] .btn-correct, 
+		.btn-correct.disabled:hover, 
+		.btn-correct[disabled]:hover, 
+		fieldset[disabled] .btn-correct:hover, 
+		.btn-correct.disabled:focus, 
+		.btn-correct[disabled]:focus, 
+		fieldset[disabled] .btn-correct:focus, 
+		.btn-correct.disabled:active, 
+		.btn-correct[disabled]:active, 
+		fieldset[disabled] .btn-correct:active, 
+		.btn-correct.disabled.active, 
+		.btn-correct[disabled].active, 
+		fieldset[disabled] .btn-correct.active { 
+			background-color: #1cb393; 
+			border-color: #1baf90; 
+		} 
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="row row-profile">
+			<br>
+			<div class="col-md-4 col-xs-3 col-xs-offset-1 profile-container">
+				<div class="thumbnail">
+					<img src="img/soldier.jpg" class="profile_image">
+					<div class="caption">
+						<h4>臭二兵</h4>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 col-xs-7 col-xs-offset-1">
+				<h1 class="current-score">0</h1>
+			</div>
+		</div>
+		<div class="row row-quiz">
+			<div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1 quiz-container">
+				<h2 class="quiz-text">請問下列防治中暑觀念何者正確？</h2>
+				<button class="btn btn-default btn-lg btn-block btn-answer row" data-correct="1">
+					<i class="glyphicon glyphicon-remove col-md-1" style="display: none"></i>
+					<i class="glyphicon glyphicon-ok col-md-1" style="display: none"></i>
+					<span class="col-md-11">隨身攜帶中暑防治小卡</span>
+				</button>
+				<button class="btn btn-default btn-lg btn-block btn-answer row" data-correct="0">
+					<i class="glyphicon glyphicon-remove col-md-1" style="display: none"></i>
+					<i class="glyphicon glyphicon-ok col-md-1" style="display: none"></i>
+					<span class="col-md-11">適度補充水分</span>
+				</button>
+				<button class="btn btn-default btn-lg btn-block btn-answer row" data-correct="0">
+					<i class="glyphicon glyphicon-remove col-md-1" style="display: none"></i>
+					<i class="glyphicon glyphicon-ok col-md-1" style="display: none"></i>
+					<span class="col-md-11">隨時注意臨兵狀況</span>
+				</button>
+				<button class="btn btn-default btn-lg btn-block btn-answer row" data-correct="0">
+					<i class="glyphicon glyphicon-remove col-md-1" style="display: none"></i>
+					<i class="glyphicon glyphicon-ok col-md-1" style="display: none"></i>
+					<span class="col-md-11">掛紅旗時禁止操課</span>
+				</button>
+			</div>
+		</div>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<script src="js/jquery.animateNumber.min.js"></script>
+
+	<script>
+		$(function() {
+
+			var questions;
+
+			$.getJSON('questions.json', function(data) {
+				questions = shuffle(data);
+
+				load_question();
+			});
+
+			$(document).on('click', '.btn-answer', function() {
+				var that = $(this),
+					score = $('.current-score'),
+					current_score = parseInt(score.text());
+				
+				if (that.attr('data-correct') !== '1') {
+					that.addClass('btn-danger shake-hard shake-constant').find('.glyphicon-remove').show();
+					navigator.vibrate(100);
+					setTimeout(function() {
+						that.removeClass('shake-hard shake-constant');
+					}, 80);
+					load_question();
+				} else {
+					score.prop('number', current_score).animateNumber({number: current_score + 200});
+					that.addClass('btn-correct shake-hard shake-constant').find('.glyphicon-ok').show();
+					setTimeout(function() {
+						that.removeClass('shake-hard shake-constant');
+					}, 80);
+					load_question();
+				}
+			});
+
+			function shuffle(array) {
+				let counter = array.length;
+				while (counter > 0) {
+					let index = Math.floor(Math.random() * counter);
+					counter--;
+					let temp = array[counter];
+					array[counter] = array[index];
+					array[index] = temp;
+				}
+				return array;
+			}
+
+			function load_question() {
+				
+				if (questions.length <= 0 ){
+					console.log('end');
+					return;
+				}
+
+				var question = questions[0].question,
+					answers = shuffle(questions[0].answers),
+					answer_buttons = '';
+
+				for (var i = 0; i < answers.length; i++) {
+					var correct = answers[i].correct ? '1' : '0';
+					answer_buttons +=  '<button class="btn btn-default btn-lg btn-block btn-answer row" data-correct="'+ correct +'">'+
+									'<span class="col-md-11">'+ questions[0].answers[i].title +'</span>'+
+								'</button>';
+				}
+
+				$('.row-quiz').html(
+					'<div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1 quiz-container">'+
+						'<h2 class="quiz-text">'+ questions[0].question +'</h2>'+
+						answer_buttons +
+					'</div>'
+				);
+
+				$('.btn-answer').prepend(
+					'<i class="glyphicon glyphicon-remove col-md-1" style="display: none"></i>'+
+					'<i class="glyphicon glyphicon-ok col-md-1" style="display: none"></i>'
+				);
+
+				questions.splice(0, 1);
+			}
+
+		});
+
+	</script>
+</body>
+</html>

@@ -1,0 +1,177 @@
+[
+	{
+		"question": "在軍中犯錯如何才能自保或降低傷害？",
+		"answers": [
+			{
+				"title": "一起錯",
+				"correct": true,
+				"description": "跟別人一樣才是當兵自保之道"
+			},
+			{
+				"title": "自己扛",
+				"correct": false,
+				"description": "是當兵當傻了嗎？"
+			},
+			{
+				"title": "賴給同梯",
+				"correct": false,
+				"description": "也不是不行，只是會黑到發亮"
+			},
+			{
+				"title": "裝死到底",
+				"correct": false,
+				"description": "最好不要被發現，不然一定黑到發亮"
+			}
+		]
+	},
+	{
+		"question": "發裝備時應該挑哪一種？",
+		"answers": [
+			{
+				"title": "拿壞的",
+				"correct": true,
+				"description": "不能用的才是最好用的"
+			},
+			{
+				"title": "拿最好的",
+				"correct": false,
+				"description": "傻傻的，拿最好的什麼任務都逃不了"
+			},
+			{
+				"title": "多拿一份",
+				"correct": false,
+				"description": "是腦袋哪裡有問題嗎？"
+			},
+			{
+				"title": "打死不拿",
+				"correct": false,
+				"description": "勇氣可嘉"
+			}
+		]
+	},
+	{
+		"question": "請問下列防治中暑觀念何者正確？",
+		"answers": [
+			{
+				"title": "隨身攜帶中暑防治小卡",
+				"correct": true,
+				"description": "隨身攜帶保平安，比喝水喝水300cc還有效"
+			},
+			{
+				"title": "適度補充水分",
+				"correct": false,
+				"description": "乖寶寶，可惜你是在當兵"
+			},
+			{
+				"title": "隨時注意臨兵狀況",
+				"correct": false,
+				"description": "還是別浪費時間，去投飲料抽煙比較實際"
+			},
+			{
+				"title": "掛紅旗時禁止操課",
+				"correct": false,
+				"description": "旗子只是裝飾品，菜逼巴"
+			}
+		]
+	},
+	{
+		"question": "補充水分時應注意什麼？",
+		"answers": [
+			{
+				"title": "大聲喊出喝水喝水300cc",
+				"correct": true,
+				"description": "有喊有保佑，喝水只是形式"
+			},
+			{
+				"title": "適度飲水不過量",
+				"correct": false,
+				"description": "喝水只是形式啊孩子"
+			},
+			{
+				"title": "水源是否乾淨",
+				"correct": false,
+				"description": "乖乖水都在喝了，乾淨什麼的都不是重點"
+			},
+			{
+				"title": "班長是否在身邊",
+				"correct": false,
+				"description": "真的有怕成這樣嗎"
+			}
+		]
+	},
+	{
+		"question": "下列何者形容錯誤？",
+		"answers": [
+			{
+				"title": "練的比熊壯",
+				"correct": true,
+				"description": "真的是想太多了"
+			},
+			{
+				"title": "起的比雞早",
+				"correct": false,
+				"description": "沒有睡眠可言的悲哀"
+			},
+			{
+				"title": "做的比牛累",
+				"correct": false,
+				"description": "牛都沒你這麼累"
+			},
+			{
+				"title": "吃的比豬差",
+				"correct": false,
+				"description": "餐餐餿水也只有你吃的下了"
+			}
+		]
+	},
+	{
+		"question": "義務役一年役期中應該學會的是？",
+		"answers": [
+			{
+				"title": "推拖閃躲飄",
+				"correct": true,
+				"description": "全部技能點都點在這就對了"
+			},
+			{
+				"title": "沖脫泡蓋送",
+				"correct": false,
+				"description": "想轉診其實有更簡單的辦法"
+			},
+			{
+				"title": "哭鬧加上吊",
+				"correct": false,
+				"description": "驗退還是要回來還的"
+			},
+			{
+				"title": "叫叫ABC",
+				"correct": false,
+				"description": "當兵壓力真的很大，自己在幹嗎都不知道"
+			}
+		]
+	},
+	{
+		"question": "戰鬥時遇突發狀況應如何處置？",
+		"answers": [
+			{
+				"title": "舉手報告班長並詢問如何處置",
+				"correct": true,
+				"description": "不問會被狗幹"
+			},
+			{
+				"title": "先進入掩蔽物後方",
+				"correct": false,
+				"description": "自以為是什麼美國大兵嗎？"
+			},
+			{
+				"title": "成戰鬥蹲姿並持槍警戒",
+				"correct": false,
+				"description": "其實你根本沒有槍，掃把是沒辦法警戒滴"
+			},
+			{
+				"title": "迅速回報並請求支援",
+				"correct": false,
+				"description": "你確定無線電會通嗎？"
+			}
+		]
+	}
+]
