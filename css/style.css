@@ -1,4 +1,22 @@
 .container {
+@media (min-width: 768px) {
+	.wrapper {
+		margin: 0 auto -60px;
+		padding-bottom: 60px;
+	}
+}
+
+@media (max-width: 767px) {
+	.wrapper {
+		margin: 0 auto;
+		padding-bottom: 0;
+	}
+}
+
+.wrapper {
+	min-height: 100%;
+	height: auto;
+}
 	height: 100vh;
 	background-image: url('img/background.png');
 	background-position: center center;
@@ -97,4 +115,45 @@ fieldset[disabled] .btn-correct:active,
 fieldset[disabled] .btn-correct.active { 
 	background-color: #1cb393; 
 	border-color: #1baf90; 
+}
+
+@media (min-width: 768px) {
+	footer.navbar-bottom {
+		height: 60px;
+	}
+}
+
+@media (max-width: 767px) {
+	footer.navbar-bottom {
+		height: 120px;
+	}
+}
+
+footer.navbar-bottom {
+	border-radius: 0;
+	margin-bottom: 0;
+}
+
+footer.navbar-bottom ul {
+	margin: 15px 0;
+}
+
+@media (min-width: 768px) {
+	footer.navbar-bottom li {
+		display: inline;
+		list-style-type: none;
+		padding-right: 20px;
+	}
+}
+
+@media (max-width: 767px) {
+	footer.navbar-bottom li {
+		display: block;
+		list-style-type: none;
+		padding: 10px;
+	}
+}
+
+footer.navbar-bottom li a {
+	color: #fff;
 }
