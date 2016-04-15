@@ -6,104 +6,16 @@
 	<title>國軍姿勢王</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="http://csshake.surge.sh/csshake.min.css">
-	<style>
-		.container {
-			height: 100vh;
-			background-image: url('img/background.png');
-			background-position: center center;
-			background-repeat: no-repeat;
-			background-attachment: fixed;
-			background-size: cover;
-		}
-
-		.row-profile {
-			margin-bottom: 2em;
-		}
-
-		.profile-container {
-			text-align: center;
-		}
-
-		.thumbnail {
-			display: inline-block;
-			border-radius: 0;
-		}
-
-		.thumbnail .caption {
-			padding: 0;
-		}
-
-		img.profile_image {
-			max-width: 100px;
-		}
-
-		.quiz-container {
-			text-align: center;
-			height: 100%;
-			min-height: 250px;
-		}
-
-		.quiz-text {
-			color: #FFF;
-			margin-bottom: 2em;
-		}
-
-		@media (min-width: 768px) {
-			.current-score {
-				color: #FFF;
-				font-size: 9em;
-			}
-		}
-
-		@media (max-width: 767px) {
-			.current-score {
-				color: #FFF;
-				font-size: 5em;
-			}
-		}
-
-		.btn-answer {
-			margin-bottom: 1em;
-		}
-
-		.btn-correct { 
-			color: #ffffff; 
-			background-color: #1cb393; 
-			border-color: #1baf90; 
-		} 
-		 
-		.btn-correct:hover, 
-		.btn-correct:focus, 
-		.btn-correct:active, 
-		.btn-correct.active { 
-			color: #ffffff; 
-			background-color: #06a187; 
-			border-color: #1baf90; 
-		}
-		 
-		.btn-correct.disabled, 
-		.btn-correct[disabled], 
-		fieldset[disabled] .btn-correct, 
-		.btn-correct.disabled:hover, 
-		.btn-correct[disabled]:hover, 
-		fieldset[disabled] .btn-correct:hover, 
-		.btn-correct.disabled:focus, 
-		.btn-correct[disabled]:focus, 
-		fieldset[disabled] .btn-correct:focus, 
-		.btn-correct.disabled:active, 
-		.btn-correct[disabled]:active, 
-		fieldset[disabled] .btn-correct:active, 
-		.btn-correct.disabled.active, 
-		.btn-correct[disabled].active, 
-		fieldset[disabled] .btn-correct.active { 
-			background-color: #1cb393; 
-			border-color: #1baf90; 
-		} 
-
-	</style>
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<div class="container">
+	<div class="container container-welcome">
+		<div class="row">
+			
+		</div>
+	</div>
+	<div class="container container-quiz">
 		<div class="row row-profile">
 			<br>
 			<div class="col-md-4 col-xs-3 col-xs-offset-1 profile-container">
@@ -119,11 +31,12 @@
 			</div>
 		</div>
 		<div class="row row-quiz"></div>
-		<p>&nbsp;</p>
+		<p class="hidden-xs">&nbsp;</p>
 		<p>&nbsp;</p>
 	</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<script src="js/velocity.min.js"></script>
 	<script src="js/jquery.animateNumber.min.js"></script>
 
 	<script>
@@ -157,12 +70,18 @@
 						current_score = parseInt(score.text());
 
 					if (that.attr('data-correct') !== '1') {
-						that.addClass('btn-danger shake-hard shake-constant').find('.glyphicon-remove').show();
+						$('html').addClass('shake shake-constant');
+						that.addClass('btn-danger').find('.glyphicon-remove').show();
+
+						setTimeout(function() {
+							$('html').removeClass('shake shake-constant')
+						}, 200);
+
 						navigator.vibrate(100);
 						load_next_question(that);
 					} else {
 						score.prop('number', current_score).animateNumber({number: current_score + 200});
-						that.addClass('btn-correct shake-hard shake-constant').find('.glyphicon-ok').show();
+						that.addClass('btn-correct shake shake-constant').find('.glyphicon-ok').show();
 						load_next_question(that);
 					}
 				});
@@ -181,17 +100,17 @@
 
 				for (var i = 0; i < answers.length; i++) {
 					var correct = answers[i].correct ? '1' : '0';
-					answer_buttons +=  '<button class="btn btn-default btn-lg btn-block btn-answer row" data-correct="'+ correct +'">'+
-									'<span class="col-md-11">'+ questions[0].answers[i].title +'</span>'+
-								'</button>';
+					answer_buttons +=  '<button class="btn btn-default btn-lg btn-block btn-answer row" data-correct="'+ correct +'" style="display: none">'+
+											'<span class="col-md-11">'+ questions[0].answers[i].title +'</span>'+
+										'</button>';
 				}
 
-				$('.row-quiz').hide().html(
+				$('.row-quiz').html(
 					'<div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1 quiz-container">'+
 						'<h2 class="quiz-text">'+ questions[0].question +'</h2>'+
 						answer_buttons +
 					'</div>'
-				).show(500);
+				);
 
 				$('.btn-answer').prepend(
 					'<i class="glyphicon glyphicon-remove col-md-1" style="display: none"></i>'+
@@ -200,22 +119,38 @@
 
 				questions.splice(0, 1);
 
+				$('.quiz-text').velocity('fadeIn', {duration: 1000});
+
+				setTimeout(function() {
+					$('.btn-answer').show().addClass('animated bounceIn').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
+						$(this).removeClass('animated bounceIn');
+					});
+				}, 1500);
+
 				bind_click_event();
 			}
 
 			var load_next_question = function(that) {
 
+				var correct_answer = $('.quiz-container .btn-answer[data-correct="1"]'),
+					wrong_answer = $('.quiz-container .btn-answer[data-correct="0"]');
+
 				setTimeout(function() {
-					that.removeClass('shake-hard shake-constant');
+					that.removeClass('shake shake-constant');
 				}, 80);
 
 				setTimeout(function() {
-					$('.row-quiz *').hide(500);
-				}, 1500);
+					correct_answer.addClass('btn-correct').find('.glyphicon-ok').show();
+					wrong_answer.velocity({opacity: 0}, {visibility: 'hidden'});
+				}, 1000);
+
+				setTimeout(function() {
+					correct_answer.velocity('fadeOut', {duration: 300});
+				}, 2500);
 
 				setTimeout(function() {
 					load_question();
-				}, 2300)
+				}, 3200)
 			}
 
 		});
