@@ -32,7 +32,11 @@
 		<div class="container container-welcome">
 			<div class="row">
 				<h1 class="type-writer" style="display: none">
-					決定你是<span class="text-success text-title">老鳥</span>或是<span class="text-title">菜逼巴</span>的關鍵一戰
+					決定你是<span class="text-success text-title">老鳥</span>
+					或是
+					<br class="hidden-sm hidden-md">
+					<span class="text-title">菜逼巴</span>
+					的關鍵一戰
 					<span class="hidden-xs">
 						<br>
 						<br>
@@ -49,7 +53,8 @@
 				<p>&nbsp;</p>
 				<p>&nbsp;</p>
 				<button class="btn btn-default btn-lg btn-start" style="display: none">
-					<h3>喬個好姿勢 》</h3>
+					<h3 class="hidden-xs">喬個好姿勢 》</h3>
+					<span class="hidden-sm hidden-md">喬個好姿勢 》</span>
 				</button>
 			</div>
 		</div>
@@ -164,7 +169,7 @@
 			var load_question = function() {
 
 				if (questions.length <= 0 ){
-					console.log('end');
+					show_result();
 					return;
 				}
 
@@ -226,6 +231,10 @@
 				setTimeout(function() {
 					load_question();
 				}, 3200)
+			}
+
+			var show_result = function() {
+				var score = $('.current-score');
 			}
 
 		});

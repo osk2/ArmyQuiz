@@ -45,6 +45,10 @@ body {
 	color: rgba(255,255,255,.9);
 }
 
+.container.container-welcome > .row{
+	padding: 1em;
+}
+
 .container.container-quiz {
 	height: 100vh;
 	background-image: url('../img/background.png');
