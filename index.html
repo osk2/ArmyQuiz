@@ -259,6 +259,8 @@
 				result_text += '<p>&nbsp;</p><a class="btn btn-lg btn-facebook" href="'+ share_url +'" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i> 分享成績至 Facebook</a>';
 
 				$('.quiz-container').html(result_text).velocity('fadeIn', {duration: 800});
+				$('.container-quiz').addClass('wrapper');
+				$('footer').velocity('fadeIn', {duration: 500});
 			}
 
 		});
