@@ -1,4 +1,15 @@
-.container {
+@charset 'utf-8';
+
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	background-color: rgb(34, 34, 34);
+	font-family: '文泉驛正黑', 'WenQuanYi Zen Hei', '儷黑 Pro', 'LiHei Pro', '微軟正黑體', 'Microsoft JhengHei', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
 @media (min-width: 768px) {
 	.wrapper {
 		margin: 0 auto -60px;
@@ -17,8 +28,26 @@
 	min-height: 100%;
 	height: auto;
 }
+
+.navbar.navbar-inverse {
+	border-radius: 0;
+}
+
+.text-title {
+	background-color: #FFF;
+	color: rgb(34, 34, 34);
+	padding: 0 5px;
+	margin: 5px 3px;
+	border-radius: 5px;
+}
+
+.container.container-welcome {
+	color: rgba(255,255,255,.9);
+}
+
+.container.container-quiz {
 	height: 100vh;
-	background-image: url('img/background.png');
+	background-image: url('../img/background.png');
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;

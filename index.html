@@ -10,12 +10,48 @@
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<div class="container container-welcome">
-		<div class="row">
-			
+	<div id="fb-root"></div>
+	<script>
+		(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = "//connect.facebook.net/zh_TW/sdk.js#xfbml=1&appId=246403012190025&version=v2.0";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+	</script>
+	<div class="wrapper">
+		
+		<nav class="navbar navbar-inverse">
+			<div class="container">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#">國軍姿勢王</a>
+				</div>
+			</div>
+		</nav>
+		<div class="container container-welcome">
+			<div class="row">
+				<h1 class="type-writer">
+					決定你是<span class="text-success text-title">老鳥</span>或是<span class="text-title">菜逼巴</span>的關鍵一戰<br>沒滿分別說你當過兵
+					<br>
+					<br>
+					你，敢來挑戰？
+					<br>
+					<br>
+					管他躺著站著還是跪著，只要能飄能閃就是好姿勢
+					<br>
+					準備好成為<span class="text-title">姿勢王</span>了嗎？
+				</h1>
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+				<button class="btn btn-default btn-lg btn-start" style="display: none">
+					<h2>喬個好姿勢 》</h2>
+				</button>
+			</div>
 		</div>
 	</div>
-	<div class="container container-quiz">
+
+	<div class="container container-quiz" style="display: none">
 		<div class="row row-profile">
 			<br>
 			<div class="col-md-4 col-xs-3 col-xs-offset-1 profile-container">
@@ -56,15 +92,30 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 	<script src="js/velocity.min.js"></script>
 	<script src="js/jquery.animateNumber.min.js"></script>
+	<script src="js/t.min.js"></script>
 
 	<script>
 		$(function() {
+
+			$('.btn-start').on('click', function() {
+				$('.navbar, .wrapper').hide();
+				$('.container-quiz').show();
+				load_question();
+			});
+
+			$('.type-writer').t({
+				blink: true,
+				speed: 30,
+				speed_vary: true,
+				fin: function() {
+					$('.btn-start').velocity('fadeIn', {duration: 800});
+				}
+			});
 
 			var questions;
 
 			$.getJSON('questions.json', function(data) {
 				questions = shuffle(data);
-				load_question();
 			});
 
 
@@ -164,6 +215,7 @@
 
 				setTimeout(function() {
 					correct_answer.velocity('fadeOut', {duration: 300});
+					$('.quiz-text').velocity('fadeOut', {duration: 300});
 				}, 2500);
 
 				setTimeout(function() {
