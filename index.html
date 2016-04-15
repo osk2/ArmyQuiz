@@ -6,6 +6,7 @@
 	<title>國軍姿勢王</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="http://csshake.surge.sh/csshake.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
@@ -234,7 +235,26 @@
 			}
 
 			var show_result = function() {
-				var score = $('.current-score');
+				var score = parseInt($('.current-score').text()),
+					result_text = '';
+
+				result_text += '<p>&nbsp;</p>';
+				if (score <= 600) {
+					result_text = '<h1>我看你還是老老實實當個死老百姓吧</h1>';
+				} else if (score > 600 && score <= 1200) {
+					result_text = '<h1>再多飄一會兒就是個專業的國軍了</h1>';
+				} else {
+					result_text = '<h1>什麼都別說了</h1>'+
+									'<p>&nbsp;</p>'+
+									'<h1><a href="http://rdrc.mnd.gov.tw/rdrc/index.aspx">國軍人才招募中心</a><h1>'+
+									'<h1>北部地區人才招募中心<br>(02)2364-3837</h1>'+
+									'<h1>中部地區人才招募中心<br>(04)2215-1813</h1>'+
+									'<h1>南部地區人才招募中心<br>(07)583-0076</h1>';
+				}
+
+				result_text += '<p>&nbsp;</p><button class="btn btn-lg btn-facebook"><i class="fa fa-facebook" aria-hidden="true"></i> 分享成績至 Facebook</button>';
+
+				$('.quiz-container').html(result_text).velocity('fadeIn', {duration: 800});
 			}
 
 		});

@@ -58,6 +58,10 @@ body {
 	background-size: cover;
 }
 
+.container.container-quiz h1 {
+	color: #FFF;
+}
+
 .row-profile {
 	margin-bottom: 2em;
 }
@@ -189,4 +193,13 @@ footer.navbar-bottom ul {
 
 footer.navbar-bottom li a {
 	color: #fff;
+}
+
+.btn-facebook {
+	background-color: #3b5998;
+	color: #FFF;
+}
+
+.btn-facebook:hover, .btn-facebook:focus {
+	color: #FFF;
 }
