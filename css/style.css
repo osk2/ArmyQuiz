@@ -203,3 +203,15 @@ footer.navbar-bottom li a {
 .btn-facebook:hover, .btn-facebook:focus {
 	color: #FFF;
 }
+
+
+/* contact.html */
+
+.form-feedback {
+	padding: 1em;
+}
+
+.form-feedback .control-label {
+	color: #FFF;
+	font-size: 1.2em;
+}

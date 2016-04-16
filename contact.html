@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>國軍姿勢王</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/sweetalert.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div id="fb-root"></div>
+	<script>
+		(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = "//connect.facebook.net/zh_TW/sdk.js#xfbml=1&appId=246403012190025&version=v2.0";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+	</script>
+
+	<div class="wrapper">
+		<nav class="navbar navbar-inverse">
+			<div class="container">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#">國軍姿勢王</a>
+				</div>
+			</div>
+		</nav>
+
+		<div class="container">
+			<div class="row">
+				<p>&nbsp;</p>
+				<h2 class="col-md-11 col-md-offset-1" style="color: #fff;">有梗再來，沒梗退散</h2>
+				<p>&nbsp;</p>
+				<form class="form-horizontal form-feedback" role="form">
+
+					<div class="form-group">
+						<div for="inputName" class="col-md-2 control-label">
+							大名&nbsp;
+						</div>
+						<div class="col-md-10 input-wrapper">
+							<input type="text" class="form-control required" name="inputName" placeholder="暱稱也行啦">
+						</div>
+					</div>
+
+					<p>&nbsp;</p>
+
+					<div class="form-group">
+						<div for="inputQuestion" class="col-md-2 control-label">
+							題目&nbsp;
+						</div>
+						<div class="col-md-10 input-wrapper">
+							<input type="text" class="form-control required" name="inputQuestion">
+						</div>
+					</div>
+
+					<p>&nbsp;</p>
+
+					<div class="row">
+						<div class="col-md-10 col-md-offset-2">
+							<p style="color: #ccc;">
+								<i class="glyphicon glyphicon-info-sign"></i>&nbsp;答案字數盡量精簡到5字左右，最多10字，不然會塞不下…
+							</p>
+						</div>
+					</div>
+
+					<p>&nbsp;</p>
+
+					<div class="clearfix"></div>
+
+					<div class="form-group">
+						<div for="inputAnswer1" class="col-md-2 control-label">
+							答案1&nbsp;
+						</div>
+						<div class="col-md-10 input-wrapper">
+							<input type="text" class="form-control required" name="inputAnswer1" placeholder="正確答案填在答案1">
+						</div>
+					</div>
+
+					<div class="form-group">
+						<div for="inputAnswer2" class="col-md-2 control-label">
+							答案2&nbsp;
+						</div>
+						<div class="col-md-10 input-wrapper">
+							<input type="text" class="form-control required" name="inputAnswer2">
+						</div>
+					</div>
+
+					<div class="form-group">
+						<div for="inputAnswer3" class="col-md-2 control-label">
+							答案3&nbsp;
+						</div>
+						<div class="col-md-10 input-wrapper">
+							<input type="text3" class="form-control required" name="inputAnswer3">
+						</div>
+					</div>
+
+					<div class="form-group">
+						<div for="inputAnswer4" class="col-md-2 control-label">
+							答案4&nbsp;
+						</div>
+						<div class="col-md-10 input-wrapper">
+							<input type="text" class="form-control required" name="inputAnswer4">
+						</div>
+					</div>
+
+					<p>&nbsp;</p>
+
+					<div class="alert alert-success" id="feedback-loading" style="display: none">
+						<strong>處理中，請稍後…</strong>
+					</div>
+
+					<div class="form-group">
+						<div class="col-md-8 col-md-offset-2">
+							<button type="submit" class="btn btn-primary btn-lg">送出</button>
+						</div>
+					</div>
+
+					<p>&nbsp;</p>
+
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<footer class="navbar-bottom navbar navbar-inverse">
+		<div class="container">
+			<div class="row">
+				<ul>
+					<li>
+						<a href="./">國軍姿勢王</a>
+					</li>
+					<li>
+						<a href="./">首頁</a>
+					</li>
+					<li>
+						<a href="#">我有梗</a>
+					</li>
+					<li>
+						<div class="fb-like" data-href="http://osk2.me/armyquiz" data-width="45" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>
+					</li>
+					<li class="pull-right hidden-sm hidden-xs">
+						<a href="http://osk2.me" target="_blank" class="text-muted">By osk2</a>
+					</li>
+					<li class="hidden-md hidden-lg">
+						<a href="http://osk2.me" target="_blank" class="text-muted">By osk2</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+
+</body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<script src="js/sweetalert.min.js"></script>
+
+	<script>
+		$(function() {
+
+			$('.form-feedback').on('submit', function(e) {
+
+				e.preventDefault();
+
+				$('.input-wrapper').removeClass('has-error');
+				var flag = true;
+
+				$('.form-feedback .required').each(function(ind, val){
+
+					if ($(this).val() === '' ) {
+						$(this).parent().addClass('has-error');
+						flag = false;
+					}
+
+				});
+
+				if (flag) {
+					var name = $('input[name="inputName"]').val(),
+						question = $('input[name="inputQuestion"]').val().replace(/\r\n|\r|\n/g,"<br>"),
+						answers = [],
+						data;
+
+					for (var i = 1; i <= 4; i++) {
+						answers[i] = $('input[name="inputAnswer'+ i +'"]').val().replace(/\r\n|\r|\n/g,"<br>");
+					}
+
+					data = JSON.stringify({"name": name, "question": question, "answers": answers});
+
+					$.ajax({
+						url: './handler.php',
+						type: 'POST',
+						data: data,
+						success: function(return_data) {
+
+							if (return_data.result) {
+								$('#recruit-loading').hide();
+								swal({
+									title: '噢耶！',
+									text: '已經收到你的愛了，感恩！',
+									confirmButtonText: '好的',
+									type: 'success'
+								});
+							} else {
+								var error_message = '';
+								if (return_data.message !== '') {
+									error_message = '發生錯誤了，稍後再重試一次（錯誤訊息︰' + return_data.message + '）';
+								} else {
+									error_message = '發生錯誤了，稍後再重試一次';
+								}
+								swal({
+									title: '糟糕！',
+									text: error_message,
+									confirmButtonText: '好的',
+									type: 'error'
+								});
+							}
+						},
+						error: function() {
+							swal({
+								title: '糟糕！',
+								text: '發生錯誤了，稍後再重試一次',
+								confirmButtonText: '好的',
+								type: 'error'
+							});
+						}
+					});
+				}else{
+					swal({
+						title: '糟糕！',
+						text: '有些必填欄位被漏掉了，趕快補齊吧',
+						confirmButtonText: '好的',
+						type: 'error'
+					});
+				}
+
+			});
+
+		});
+	</script>
+</html>

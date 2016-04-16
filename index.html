@@ -92,9 +92,15 @@
 						<a href="./">國軍姿勢王</a>
 					</li>
 					<li>
+						<a href="#">我有梗</a>
+					</li>
+					<li>
 						<div class="fb-like" data-href="http://osk2.me/armyquiz" data-width="45" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>
 					</li>
 					<li class="pull-right hidden-sm hidden-xs">
+						<a href="http://osk2.me" target="_blank" class="text-muted">By osk2</a>
+					</li>
+					<li class="hidden-md hidden-lg">
 						<a href="http://osk2.me" target="_blank" class="text-muted">By osk2</a>
 					</li>
 				</ul>
@@ -183,7 +189,7 @@
 
 				for (var i = 0; i < answers.length; i++) {
 					var correct = answers[i].correct ? '1' : '0';
-					answer_buttons +=  '<button class="btn btn-default btn-lg btn-block btn-answer row" data-correct="'+ correct +'" style="display: none">'+
+					answer_buttons +='<button class="btn btn-default btn-lg btn-block btn-answer row" data-correct="'+ correct +'" style="display: none">'+
 											'<span class="col-md-11">'+ questions[0].answers[i].title +'</span>'+
 										'</button>';
 				}
