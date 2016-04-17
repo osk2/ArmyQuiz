@@ -167,7 +167,10 @@
 							$('html').removeClass('shake shake-constant')
 						}, 200);
 
-						navigator.vibrate(100);
+						if ("vibrate" in navigator) {
+							navigator.vibrate(100);
+						}
+						
 						load_next_question(that);
 					} else {
 						score.prop('number', current_score).animateNumber({number: current_score + 200});
