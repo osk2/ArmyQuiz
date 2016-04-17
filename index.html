@@ -83,6 +83,7 @@
 		<p class="hidden-xs">&nbsp;</p>
 		<p>&nbsp;</p>
 	</div>
+	<div class="clearfix"></div>
 
 	<footer class="navbar-bottom navbar navbar-inverse">
 		<div class="container">
@@ -257,7 +258,6 @@
 				} else {
 					result_text = '<h1>什麼都別說了</h1>'+
 									'<p>&nbsp;</p>'+
-									'<h1><a href="http://rdrc.mnd.gov.tw/rdrc/index.aspx">國軍人才招募中心</a><h1>'+
 									'<h1>北部地區人才招募中心<br>(02)2364-3837</h1>'+
 									'<h1>中部地區人才招募中心<br>(04)2215-1813</h1>'+
 									'<h1>南部地區人才招募中心<br>(07)583-0076</h1>';
@@ -265,7 +265,7 @@
 				share_text = encodeURIComponent('我拿' + score + '分，叫我姿勢王！');
 				share_url = 'http://www.facebook.com/sharer/sharer.php?u=http://osk2.me/armyquiz&t=' + share_text;
 
-				result_text += '<p>&nbsp;</p><a class="btn btn-lg btn-facebook" href="'+ share_url +'" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i> 分享成績至 Facebook</a>';
+				result_text += '<p>&nbsp;</p><a class="btn btn-lg btn-facebook" href="'+ share_url +'" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i>&nbsp;分享至 Facebook</a><p>&nbsp;</p>';
 
 				$('.quiz-container').html(result_text).velocity('fadeIn', {duration: 800});
 				$('.container-quiz').addClass('wrapper');

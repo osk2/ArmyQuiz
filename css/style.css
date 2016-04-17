@@ -154,6 +154,11 @@ fieldset[disabled] .btn-correct.active {
 	border-color: #1baf90; 
 }
 
+footer {
+	min-height: 60px;
+	height: auto;
+}
+
 @media (min-width: 768px) {
 	footer.navbar-bottom {
 		height: 60px;
@@ -202,6 +207,14 @@ footer.navbar-bottom li a {
 
 .btn-facebook:hover, .btn-facebook:focus {
 	color: #FFF;
+}
+
+@media (max-width: 767px) {
+
+	.quiz-container h1 {
+		font-size: 2em;
+	}
+
 }
 
 
