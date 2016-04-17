@@ -154,11 +154,6 @@ fieldset[disabled] .btn-correct.active {
 	border-color: #1baf90; 
 }
 
-footer {
-	min-height: 60px;
-	height: auto;
-}
-
 @media (min-width: 768px) {
 	footer.navbar-bottom {
 		height: 60px;
@@ -167,7 +162,7 @@ footer {
 
 @media (max-width: 767px) {
 	footer.navbar-bottom {
-		height: 120px;
+		height: auto;
 	}
 }
 
