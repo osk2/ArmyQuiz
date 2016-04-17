@@ -75,7 +75,7 @@
 							答案1&nbsp;
 						</div>
 						<div class="col-md-10 input-wrapper">
-							<input type="text" class="form-control required" name="inputAnswer1" placeholder="正確答案填在答案1">
+							<input type="text" class="form-control required" name="inputAnswer1" placeholder="正確答案填在這裡">
 						</div>
 					</div>
 
@@ -114,7 +114,8 @@
 
 					<div class="form-group">
 						<div class="col-md-8 col-md-offset-2">
-							<button type="submit" class="btn btn-primary btn-lg">送出</button>
+							<button type="submit" class="btn btn-primary btn-lg btn-submit">送出</button>
+							<button type="reset"  class="btn btn-lg btn-reset" style="display: none">清掉再來一題</button>
 						</div>
 					</div>
 
@@ -124,6 +125,7 @@
 			</div>
 		</div>
 	</div>
+	<div class="clearfix"></div>
 
 	<footer class="navbar-bottom navbar navbar-inverse">
 		<div class="container">
@@ -194,14 +196,14 @@
 						data: data,
 						success: function(return_data) {
 
-							if (return_data.result) {
-								$('#recruit-loading').hide();
+							if (return_data.success) {
 								swal({
 									title: '噢耶！',
 									text: '已經收到你的愛了，感恩！',
 									confirmButtonText: '好的',
 									type: 'success'
 								});
+								$('.btn-reset').show();
 							} else {
 								var error_message = '';
 								if (return_data.message !== '') {
