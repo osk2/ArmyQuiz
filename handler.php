@@ -16,8 +16,8 @@
 			\"correct\": false
 		},
 		{
-		\"title\": \"". $data["answers"][3] ."\",
-		\"correct\": false
+			\"title\": \"". $data["answers"][3] ."\",
+			\"correct\": false
 		},
 		{
 			\"title\": \"". $data["answers"][4] ."\",
