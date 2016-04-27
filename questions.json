@@ -174,26 +174,26 @@
 			}
 		]
 	},
-{
-	"question": "當敵機一早轟炸營區時，我軍應對的首要之務為何?",
-	"provider": "五星上將",
-	"answers": [
-		{
-			"title": "把棉被摺好並整好內務",
-			"correct": true
-		},
-		{
-			"title": "展開防空防衛作戰",
-			"correct": false
-		},
-		{
-			"title": "聯絡友軍請求支援",
-			"correct": false
-		},
-		{
-			"title": "退入掩體中以保存戰力",
-			"correct": false
-		}
-	]
-}
+	{
+		"question": "當敵機一早轟炸營區時，我軍應對的首要之務為何?",
+		"provider": "五星上將",
+		"answers": [
+			{
+				"title": "把棉被摺好並整好內務",
+				"correct": true
+			},
+			{
+				"title": "展開防空防衛作戰",
+				"correct": false
+			},
+			{
+				"title": "聯絡友軍請求支援",
+				"correct": false
+			},
+			{
+				"title": "退入掩體中以保存戰力",
+				"correct": false
+			}
+		]
+	}
 ]
