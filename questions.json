@@ -334,5 +334,27 @@
 				"correct": false
 			}
 		]
+	},
+	{
+		"question": "智慧手機使用規定何者正確？",
+		"provider": "Johnny",
+		"answers": [
+			{
+				"title": "不要被發現都好",
+				"correct": true
+			},
+			{
+				"title": "依規定申請管制標籤",
+				"correct": false
+			},
+			{
+				"title": "只在開放區域使用",
+				"correct": false
+			},
+			{
+				"title": "關閉GPS功能",
+				"correct": false
+			}
+		]
 	}
 ]

@@ -58,7 +58,7 @@ body {
 	background-size: cover;
 }
 
-.container.container-quiz h1 {
+.container.container-quiz h1, .container.container-quiz h2 {
 	color: #FFF;
 }
 
