@@ -31,7 +31,7 @@
 		$output = array("success" => true, "message" => "傳送成功");
 	} else {
 		fclose($file);
-		$output = array("success" => false, "message" => "發生未知錯誤，請再試一次");
+		$output = array("success" => false, "message" => "資料儲存失敗");
 	}
 
 	header("Content-Type: application/json; charset=utf-8");
