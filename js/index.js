@@ -20,6 +20,7 @@ $(function() {
 
 	$.getJSON('questions.json?' + Date.now(), function(data) {
 		questions = shuffle(data);
+		questions = questions.slice(0, 10);
 	});
 
 
@@ -146,9 +147,9 @@ $(function() {
 		share_text = '';
 
 		result_text += '<p>&nbsp;</p>';
-		if (score <= 600) {
+		if (score <= 1000) {
 			result_text = '<h1>我看你還是老老實實當個死老百姓吧</h1>';
-		} else if (score > 600 && score <= 1200) {
+		} else if (score > 1200 && score <= 1800) {
 			result_text = '<h1>再多飄一會兒就是個專業的國軍了</h1>';
 		} else {
 			result_text = '<h1>什麼都別說了</h1>'+
