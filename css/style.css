@@ -220,7 +220,7 @@ footer.navbar-bottom li a {
 }
 
 .form-feedback .control-label {
-	color: #FFF;
+	color: #fff;
 	font-size: 1.2em;
 }
 
@@ -228,5 +228,18 @@ footer.navbar-bottom li a {
 /* about.html */
 
 .about-container * {
-	color: #FFF;
+	color: #fff;
+}
+
+.about-container hr {
+	border-top-color: #999;
+}
+
+.about-container blockquote {
+	border-left: 5px solid #999;
+}
+
+.about-container blockquote footer {
+	color: #999;
+	margin-left: 1em;
 }
