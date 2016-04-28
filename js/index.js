@@ -48,10 +48,10 @@ $(function() {
 				that.addClass('btn-danger').find('.glyphicon-remove').show();
 
 				setTimeout(function() {
-					$('html').removeClass('shake shake-constant')
+					$('html').removeClass('shake shake-constant');
 				}, 200);
 
-				if ("vibrate" in navigator) {
+				if ('vibrate' in navigator) {
 					navigator.vibrate(100);
 				}
 				
@@ -142,9 +142,9 @@ $(function() {
 
 	var show_result = function() {
 		var score = parseInt($('.current-score').text()),
-		result_text = '',
-		share_url = '',
-		share_text = '';
+			result_text = '',
+			share_url = '',
+			share_text = '';
 
 		result_text += '<p>&nbsp;</p>';
 		if (score <= 1000) {
@@ -154,16 +154,16 @@ $(function() {
 		} else {
 			result_text = '<h1>什麼都別說了</h1>'+
 			'<p>&nbsp;</p>'+
-			'<h1>北部地區人才招募中心<br>(02)2364-3837</h1>'+
-			'<h1>中部地區人才招募中心<br>(04)2215-1813</h1>'+
-			'<h1>南部地區人才招募中心<br>(07)583-0076</h1>';
+			'<h2>北部地區人才招募中心<br>(02)2364-3837</h2>'+
+			'<h2>中部地區人才招募中心<br>(04)2215-1813</h2>'+
+			'<h2>南部地區人才招募中心<br>(07)583-0076</h2>';
 		}
 		share_text = encodeURIComponent('我拿' + score + '分，叫我姿勢王！');
 		share_url = 'http://www.facebook.com/sharer/sharer.php?u=http://osk2.me/armyquiz&t=' + share_text;
 
 		result_text += '<p>&nbsp;</p><a class="btn btn-lg btn-facebook" href="'+ share_url +'" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i>&nbsp;分享至 Facebook</a><p>&nbsp;</p>';
 
-		$('.quiz-container').html(result_text).velocity('fadeIn', {duration: 800});
+		$('.quiz-wrapper').html(result_text).velocity('fadeIn', {duration: 800});
 		$('.container-quiz').addClass('wrapper');
 		$('footer').velocity('fadeIn', {duration: 500});
 	}

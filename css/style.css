@@ -79,8 +79,19 @@ body {
 	padding: 0;
 }
 
-img.profile_image {
-	max-width: 100px;
+@media (min-width: 768px) {
+
+	img.profile_image {
+		max-width: 100px;
+	}
+
+}
+
+@media (max-width: 767px) {
+
+	img.profile_image {
+		max-width: 70px;
+	}
 }
 
 .quiz-wrapper {
