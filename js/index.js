@@ -71,20 +71,27 @@ $(function() {
 		}
 
 		var question = questions[0].question,
-		answers = shuffle(questions[0].answers),
-		answer_buttons = '';
+			answers = shuffle(questions[0].answers),
+			answer_buttons = '',
+			provider = '<p>&nbsp;</p><p>&nbsp;</p>';
 
 		for (var i = 0; i < answers.length; i++) {
 			var correct = answers[i].correct ? '1' : '0';
-			answer_buttons +='<button class="btn btn-default btn-lg btn-block btn-answer row" data-correct="'+ correct +'" style="display: none">'+
-			'<span class="col-md-11">'+ questions[0].answers[i].title +'</span>'+
-			'</button>';
+			answer_buttons += 
+				'<button class="btn btn-default btn-lg btn-block btn-answer row" data-correct="' + correct + '" style="display: none">' +
+					'<span class="col-md-11">' + questions[0].answers[i].title + '</span>' +
+				'</button>';
+		}
+
+		if (questions[0].provider !== '') {
+			provider = '<div class="quiz-provider">本題由「' + questions[0].provider + '」提供</div>';
 		}
 
 		$('.row-quiz').html(
-			'<div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1 quiz-container">'+
-			'<h2 class="quiz-text">'+ questions[0].question +'</h2>'+
-			answer_buttons +
+			'<div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1 quiz-wrapper">' +
+				'<h2 class="quiz-text">' + questions[0].question + '</h2>' +
+				provider +
+				answer_buttons +
 			'</div>'
 			);
 
@@ -93,9 +100,9 @@ $(function() {
 			'<i class="glyphicon glyphicon-ok col-md-1" style="display: none"></i>'
 			);
 
-		questions.splice(0, 1);
+		$('.quiz-text, .quiz-provider').velocity('fadeIn', {duration: 1000});
 
-		$('.quiz-text').velocity('fadeIn', {duration: 1000});
+		questions.splice(0, 1);
 
 		setTimeout(function() {
 			$('.btn-answer').show().addClass('animated bounceIn').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
@@ -108,8 +115,9 @@ $(function() {
 
 	var load_next_question = function(that) {
 
-		var correct_answer = $('.quiz-container .btn-answer[data-correct="1"]'),
-		wrong_answer = $('.quiz-container .btn-answer[data-correct="0"]');
+		var correct_answer = $('.quiz-wrapper .btn-answer[data-correct="1"]'),
+			wrong_answer = $('.quiz-wrapper .btn-answer[data-correct="0"]'),
+			provider = $('.quiz-provider');
 
 		setTimeout(function() {
 			that.removeClass('shake shake-constant');
@@ -118,6 +126,7 @@ $(function() {
 		setTimeout(function() {
 			correct_answer.addClass('btn-correct').find('.glyphicon-ok').show();
 			wrong_answer.velocity({opacity: 0}, {visibility: 'hidden'});
+			provider.velocity({opacity: 0}, {visibility: 'hidden'});
 		}, 1000);
 
 		setTimeout(function() {
