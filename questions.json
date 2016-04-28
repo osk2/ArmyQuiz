@@ -1,6 +1,7 @@
 [
 	{
 		"question": "在軍中犯錯如何才能自保或降低傷害？",
+		"provider": "",
 		"answers": [
 			{
 				"title": "一起錯",
@@ -26,6 +27,7 @@
 	},
 	{
 		"question": "發防毒面具時應該怎麼挑？",
+		"provider": "",
 		"answers": [
 			{
 				"title": "拿壞的",
@@ -51,6 +53,7 @@
 	},
 	{
 		"question": "請問下列防治中暑觀念何者正確？",
+		"provider": "",
 		"answers": [
 			{
 				"title": "隨身攜帶中暑防治小卡",
@@ -76,6 +79,7 @@
 	},
 	{
 		"question": "補充水分時應注意什麼？",
+		"provider": "",
 		"answers": [
 			{
 				"title": "大聲喊出喝水喝水300cc",
@@ -101,6 +105,7 @@
 	},
 	{
 		"question": "下列關於當兵的敘述何者錯誤？",
+		"provider": "",
 		"answers": [
 			{
 				"title": "練的比熊壯",
@@ -126,6 +131,7 @@
 	},
 	{
 		"question": "義務役一年役期中應該學會的是？",
+		"provider": "",
 		"answers": [
 			{
 				"title": "推拖閃躲飄",
@@ -151,6 +157,7 @@
 	},
 	{
 		"question": "戰鬥時遇突發狀況應如何處置？",
+		"provider": "",
 		"answers": [
 			{
 				"title": "舉手報告班長並詢問如何處置",
@@ -192,6 +199,138 @@
 			},
 			{
 				"title": "退入掩體中以保存戰力",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "高裝檢時多餘料件該如何處置？",
+		"provider": "winged",
+		"answers": [
+			{
+				"title": "丟化糞池",
+				"correct": true
+			},
+			{
+				"title": "通報經理",
+				"correct": false
+			},
+			{
+				"title": "照實紀錄",
+				"correct": false
+			},
+			{
+				"title": "裝死不認",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "車輛行駛前五油三水該如何檢查？",
+		"provider": "少將駕駛兵",
+		"answers": [
+			{
+				"title": "敲敲蓋子做做樣子",
+				"correct": true
+			},
+			{
+				"title": "打開蓋子確認是否足量",
+				"correct": false
+			},
+			{
+				"title": "隨便看看就好",
+				"correct": false
+			},
+			{
+				"title": "叫班長檢查",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "大兵日記寫不出來，該怎麼辦？",
+		"provider": "東東",
+		"answers": [
+			{
+				"title": "抄奮鬥月刊",
+				"correct": true
+			},
+			{
+				"title": "偷抄鄰兵的",
+				"correct": false
+			},
+			{
+				"title": "抄青年日報",
+				"correct": false
+			},
+			{
+				"title": "抄中國時報",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "查哨時該做什麼？",
+		"provider": "下士副砲長",
+		"answers": [
+			{
+				"title": "站住口令誰",
+				"correct": true
+			},
+			{
+				"title": "我不是故意的",
+				"correct": false
+			},
+			{
+				"title": "舉手敬禮長官好",
+				"correct": false
+			},
+			{
+				"title": "當作沒看到",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "站哨遇到不明人士意圖闖入應該如何處置？",
+		"provider": "",
+		"answers": [
+			{
+				"title": "大聲背誦用棍時機",
+				"correct": true
+			},
+			{
+				"title": "迅速成用槍姿勢警戒",
+				"correct": false
+			},
+			{
+				"title": "回報並請求支援",
+				"correct": false
+			},
+			{
+				"title": "隨便他進出",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "遇到升降旗時應該？",
+		"provider": "",
+		"answers": [
+			{
+				"title": "迅速躲進室內",
+				"correct": true
+			},
+			{
+				"title": "立正並舉手敬禮",
+				"correct": false
+			},
+			{
+				"title": "大聲送唱國歌",
+				"correct": false
+			},
+			{
+				"title": "跪下痛哭流涕",
 				"correct": false
 			}
 		]
