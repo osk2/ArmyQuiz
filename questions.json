@@ -356,5 +356,137 @@
 				"correct": false
 			}
 		]
+	},
+	{
+		"question": "發生戰事時，早上6點應該做什麼？",
+		"provider": "564屏東彭于晏",
+		"answers": [
+			{
+				"title": "全連集合場早點名",
+				"correct": true
+			},
+			{
+				"title": "領槍上戰場",
+				"correct": false
+			},
+			{
+				"title": "時刻保持戒備",
+				"correct": false
+			},
+			{
+				"title": "冷靜分析敵情",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "志願役實施外膳宿時，在營的義務役有何福利？",
+		"provider": "Monstercock",
+		"answers": [
+			{
+				"title": "全部皆是",
+				"correct": true
+			},
+			{
+				"title": "掃廁所",
+				"correct": false
+			},
+			{
+				"title": "倒垃圾",
+				"correct": false
+			},
+			{
+				"title": "出公差",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "下基地時需注意什麼？",
+		"provider": "Monstercock",
+		"answers": [
+			{
+				"title": "準備大量零錢打小蜜蜂",
+				"correct": true
+			},
+			{
+				"title": "個人裝備是否到齊",
+				"correct": false
+			},
+			{
+				"title": "紮實訓練迎接鑑測",
+				"correct": false
+			},
+			{
+				"title": "打好野戰背包",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "睡過頭該如何處置",
+		"provider": "陳猴子",
+		"answers": [
+			{
+				"title": "人有三急去廁所",
+				"correct": true
+			},
+			{
+				"title": "鄰兵沒叫我起床",
+				"correct": false
+			},
+			{
+				"title": "裝死繼續睡",
+				"correct": false
+			},
+			{
+				"title": "我以為有補眠",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "上戰場時應注意？",
+		"provider": "775陸戰菜B8",
+		"answers": [
+			{
+				"title": "高端槍對腳步",
+				"correct": true
+			},
+			{
+				"title": "視死如歸的心",
+				"correct": false
+			},
+			{
+				"title": "注意敵軍動向",
+				"correct": false
+			},
+			{
+				"title": "聽從班長命令",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "遇到軍中霸凌，單兵如何處置？",
+		"provider": "YOYO KUO",
+		"answers": [
+			{
+				"title": "打1985再爆蘋果",
+				"correct": true
+			},
+			{
+				"title": "打給媽媽哭訴",
+				"correct": false
+			},
+			{
+				"title": "逐級反應給長官",
+				"correct": false
+			},
+			{
+				"title": "打給麥當勞歡樂送",
+				"correct": false
+			}
+		]
 	}
 ]
