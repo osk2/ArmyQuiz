@@ -488,5 +488,93 @@
 				"correct": false
 			}
 		]
+	},
+    {
+		"question": "割草要注意什麼",
+		"provider": "BlueOmaster",
+		"answers": [
+			{
+				"title": "不要割完",
+				"correct": true
+			},
+			{
+				"title": "要戴護具",
+				"correct": false
+			},
+			{
+				"title": "機油適量",
+				"correct": false
+			},
+			{
+				"title": "小心石頭",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "被排到夜哨時該怎麼辦",
+		"provider": "皮皮",
+		"answers": [
+			{
+				"title": "裝忙裝病更換",
+				"correct": true
+			},
+			{
+				"title": "自認倒楣自己站",
+				"correct": false
+			},
+			{
+				"title": "站哨是種榮耀",
+				"correct": false
+			},
+			{
+				"title": "上一班續站",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "打仗時如遇緊急出動時該做什麼？",
+		"provider": "Qoo",
+		"answers": [
+			{
+				"title": "先開派車單才能出發",
+				"correct": true
+			},
+			{
+				"title": "不用多說立即出動",
+				"correct": false
+			},
+			{
+				"title": "先看地圖路線",
+				"correct": false
+			},
+			{
+				"title": "等待指示",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "打仗時下大雨該怎麼辦",
+		"provider": "付興書宏打",
+		"answers": [
+			{
+				"title": "確保水溝無積水",
+				"correct": true
+			},
+			{
+				"title": "槍口朝下防浸水",
+				"correct": false
+			},
+			{
+				"title": "向幹部反應",
+				"correct": false
+			},
+			{
+				"title": "穿雨衣誓死抗敵",
+				"correct": false
+			}
+		]
 	}
 ]
