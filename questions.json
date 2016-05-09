@@ -576,5 +576,71 @@
 				"correct": false
 			}
 		]
+	},
+	{
+		"question": "上戰場衝鋒陷陣前，幹部們應先檢查各兵?",
+		"provider": "步二營士兵督導長",
+		"answers": [
+			{
+				"title": "口袋內務、頭髮與皮鞋",
+				"correct": true
+			},
+			{
+				"title": "武器裝備",
+				"correct": false
+			},
+			{
+				"title": "身心狀況",
+				"correct": false
+			},
+			{
+				"title": "是否了解作戰計畫",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "軍中哪份資料最真實",
+		"provider": "步二營士兵督導長",
+		"answers": [
+			{
+				"title": "哨表",
+				"correct": true
+			},
+			{
+				"title": "簽到表",
+				"correct": false
+			},
+			{
+				"title": "督導資料",
+				"correct": false
+			},
+			{
+				"title": "約談紀錄",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "何時是展現榮譽的最佳時候？",
+		"provider": "5星上將",
+		"answers": [
+			{
+				"title": "放18",
+				"correct": true
+			},
+			{
+				"title": "操課",
+				"correct": false
+			},
+			{
+				"title": "演習",
+				"correct": false
+			},
+			{
+				"title": "簽志願役",
+				"correct": false
+			}
+		]
 	}
 ]
