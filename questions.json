@@ -642,5 +642,137 @@
 				"correct": false
 			}
 		]
+	},
+	{
+		"question": "當兵只有什麼是真的",
+		"provider": "叫長官",
+		"answers": [
+			{
+				"title": "退伍令",
+				"correct": true
+			},
+			{
+				"title": "長官的噓寒問暖",
+				"correct": false
+			},
+			{
+				"title": "學長的諄諄教誨",
+				"correct": false
+			},
+			{
+				"title": "女友的信誓旦旦",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "新兵洗澡時沒熱水怎辦",
+		"provider": "升不上中士的下士",
+		"answers": [
+			{
+				"title": "妳看過妳媽洗菜用熱水呀",
+				"correct": true
+			},
+			{
+				"title": "找班長反應",
+				"correct": false
+			},
+			{
+				"title": "打1985",
+				"correct": false
+			},
+			{
+				"title": "直接洗冷水",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "防毒面具攜行袋使用前應注意什麼",
+		"provider": "松本奇",
+		"answers": [
+			{
+				"title": "零食糖果是否補齊塞滿",
+				"correct": true
+			},
+			{
+				"title": "濾毒罐是否過期",
+				"correct": false
+			},
+			{
+				"title": "調整帶是否功能正常無缺少零件",
+				"correct": false
+			},
+			{
+				"title": "攜行袋外觀及背帶是否無破損",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "行進時遇到長官正確表現為何？",
+		"provider": "",
+		"answers": [
+			{
+				"title": "繞道而行",
+				"correct": true
+			},
+			{
+				"title": "敬禮，長官好",
+				"correct": false
+			},
+			{
+				"title": "向右～看，長官好",
+				"correct": false
+			},
+			{
+				"title": "兩兩並肩，三人成行",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "休假預劃表該怎麼寫？",
+		"provider": "四三砲狂站士",
+		"answers": [
+			{
+				"title": "一律在家休息睡覺",
+				"correct": true
+			},
+			{
+				"title": "跟朋友出去打球",
+				"correct": false
+			},
+			{
+				"title": "騎機車出去兜風",
+				"correct": false
+			},
+			{
+				"title": "去外地過夜遊玩",
+				"correct": false
+			}
+		]
+	},
+	{
+		"question": "當打飯班應注意何事？",
+		"provider": "爛帳",
+		"answers": [
+			{
+				"title": "向值星報補休",
+				"correct": true
+			},
+			{
+				"title": "均衡每人飯菜量",
+				"correct": false
+			},
+			{
+				"title": "打連級長官餐盤",
+				"correct": false
+			},
+			{
+				"title": "配餐盤整潔",
+				"correct": false
+			}
+		]
 	}
 ]
