@@ -4,4 +4,4 @@
 
 沒滿分別說你當過兵，你敢來挑戰？
 
-http://osk2.me/armyquiz
+https://osk2.me/armyquiz
