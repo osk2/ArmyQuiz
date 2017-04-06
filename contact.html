@@ -1,181 +1,181 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta property="og:site_name" content="國軍姿勢王">
-	<meta property="og:title" content="國軍姿勢王">
-	<meta property="og:description" content="沒玩過別說你懂國軍，你敢來挑戰嗎？">
-	<meta property="og:type" content="website">
-	<meta property="og:image" content="http://osk2.me/armyquiz/img/soldier.jpg">
-	<meta property="og:url" content="http://osk2.me/armyquiz/">
-	<meta property="fb:app_id" content="1547299012233601">
-	<meta name="theme-color" content="#333333">
-	<title>國軍姿勢王</title>
-	<link rel="stylesheet" href="//cdn.jsdelivr.net/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha256-916EbMg70RQy9LHiGkXzG8hSg9EdNy97GazNG/aiY1w=" crossorigin="anonymous">
-	<link rel="stylesheet" href="//cdn.jsdelivr.net/sweetalert2/6.4.3/sweetalert2.min.css" integrity="sha256-Wf3ZlY72J3X62Sm2AQJ5WD3sU21jpioeglpMHF/5w44=" crossorigin="anonymous">
-	<link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:site_name" content="國軍姿勢王">
+  <meta property="og:title" content="國軍姿勢王">
+  <meta property="og:description" content="沒玩過別說你懂國軍，你敢來挑戰嗎？">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="http://osk2.me/armyquiz/img/soldier.jpg">
+  <meta property="og:url" content="http://osk2.me/armyquiz/">
+  <meta property="fb:app_id" content="1547299012233601">
+  <meta name="theme-color" content="#333333">
+  <title>國軍姿勢王</title>
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha256-916EbMg70RQy9LHiGkXzG8hSg9EdNy97GazNG/aiY1w=" crossorigin="anonymous">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/sweetalert2/6.4.3/sweetalert2.min.css" integrity="sha256-Wf3ZlY72J3X62Sm2AQJ5WD3sU21jpioeglpMHF/5w44=" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<div id="fb-root"></div>
-	<script>
-		(function(d, s, id) {
-			var js, fjs = d.getElementsByTagName(s)[0];
-			if (d.getElementById(id)) return;
-			js = d.createElement(s); js.id = id;
-			js.src = "//connect.facebook.net/zh_TW/sdk.js#xfbml=1&appId=246403012190025&version=v2.0";
-			fjs.parentNode.insertBefore(js, fjs);
-		}(document, 'script', 'facebook-jssdk'));
+  <div id="fb-root"></div>
+  <script>
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/zh_TW/sdk.js#xfbml=1&appId=246403012190025&version=v2.0";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
 
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-		ga('create', 'UA-69159377-2', 'auto');
-		ga('send', 'pageview');
-	</script>
+    ga('create', 'UA-69159377-2', 'auto');
+    ga('send', 'pageview');
+  </script>
 
-	<div class="wrapper">
-		<nav class="navbar navbar-inverse">
-			<div class="container">
-				<div class="navbar-header">
-					<a class="navbar-brand" href="./">國軍姿勢王</a>
-				</div>
-			</div>
-		</nav>
+  <div class="wrapper">
+    <nav class="navbar navbar-inverse">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="./">國軍姿勢王</a>
+        </div>
+      </div>
+    </nav>
 
-		<div class="container">
-			<div class="row">
-				<p>&nbsp;</p>
-				<h2 class="col-md-11 col-md-offset-1" style="color: #fff;">有梗速來，沒梗退散</h2>
-				<p>&nbsp;</p>
-				<form class="form-horizontal form-feedback" role="form">
+    <div class="container">
+      <div class="row">
+        <p>&nbsp;</p>
+        <h2 class="col-md-11 col-md-offset-1" style="color: #fff;">有梗速來，沒梗退散</h2>
+        <p>&nbsp;</p>
+        <form class="form-horizontal form-feedback" role="form">
 
-					<div class="form-group">
-						<div for="inputName" class="col-md-2 control-label">
-							大名&nbsp;
-						</div>
-						<div class="col-md-10 input-wrapper">
-							<input type="text" class="form-control required" name="inputName" placeholder="暱稱也行啦">
-						</div>
-					</div>
+          <div class="form-group">
+            <div for="inputName" class="col-md-2 control-label">
+              大名&nbsp;
+            </div>
+            <div class="col-md-10 input-wrapper">
+              <input type="text" class="form-control required" name="inputName" placeholder="暱稱也行啦">
+            </div>
+          </div>
 
-					<p>&nbsp;</p>
+          <p>&nbsp;</p>
 
-					<div class="form-group">
-						<div for="inputQuestion" class="col-md-2 control-label">
-							題目&nbsp;
-						</div>
-						<div class="col-md-10 input-wrapper">
-							<input type="text" class="form-control required" name="inputQuestion">
-						</div>
-					</div>
+          <div class="form-group">
+            <div for="inputQuestion" class="col-md-2 control-label">
+              題目&nbsp;
+            </div>
+            <div class="col-md-10 input-wrapper">
+              <input type="text" class="form-control required" name="inputQuestion">
+            </div>
+          </div>
 
-					<p>&nbsp;</p>
+          <p>&nbsp;</p>
 
-					<div class="col-md-10 col-md-offset-2">
-						<p style="color: #ccc;">
-							<i class="glyphicon glyphicon-info-sign"></i>&nbsp;答案字數盡量精簡到5字左右，最多10字，不然會塞不下…
-						</p>
-					</div>
+          <div class="col-md-10 col-md-offset-2">
+            <p style="color: #ccc;">
+              <i class="glyphicon glyphicon-info-sign"></i>&nbsp;答案字數盡量精簡到5字左右，最多10字，不然會塞不下…
+            </p>
+          </div>
 
-					<p>&nbsp;</p>
+          <p>&nbsp;</p>
 
-					<div class="clearfix"></div>
+          <div class="clearfix"></div>
 
-					<div class="form-group">
-						<div for="inputAnswer1" class="col-md-2 control-label">
-							答案1&nbsp;
-						</div>
-						<div class="col-md-10 input-wrapper">
-							<input type="text" class="form-control required" name="inputAnswer1" placeholder="正確答案填在這裡">
-						</div>
-					</div>
+          <div class="form-group">
+            <div for="inputAnswer1" class="col-md-2 control-label">
+              答案1&nbsp;
+            </div>
+            <div class="col-md-10 input-wrapper">
+              <input type="text" class="form-control required" name="inputAnswer1" placeholder="正確答案填在這裡">
+            </div>
+          </div>
 
-					<div class="form-group">
-						<div for="inputAnswer2" class="col-md-2 control-label">
-							答案2&nbsp;
-						</div>
-						<div class="col-md-10 input-wrapper">
-							<input type="text" class="form-control required" name="inputAnswer2">
-						</div>
-					</div>
+          <div class="form-group">
+            <div for="inputAnswer2" class="col-md-2 control-label">
+              答案2&nbsp;
+            </div>
+            <div class="col-md-10 input-wrapper">
+              <input type="text" class="form-control required" name="inputAnswer2">
+            </div>
+          </div>
 
-					<div class="form-group">
-						<div for="inputAnswer3" class="col-md-2 control-label">
-							答案3&nbsp;
-						</div>
-						<div class="col-md-10 input-wrapper">
-							<input type="text3" class="form-control required" name="inputAnswer3">
-						</div>
-					</div>
+          <div class="form-group">
+            <div for="inputAnswer3" class="col-md-2 control-label">
+              答案3&nbsp;
+            </div>
+            <div class="col-md-10 input-wrapper">
+              <input type="text3" class="form-control required" name="inputAnswer3">
+            </div>
+          </div>
 
-					<div class="form-group">
-						<div for="inputAnswer4" class="col-md-2 control-label">
-							答案4&nbsp;
-						</div>
-						<div class="col-md-10 input-wrapper">
-							<input type="text" class="form-control required" name="inputAnswer4">
-						</div>
-					</div>
+          <div class="form-group">
+            <div for="inputAnswer4" class="col-md-2 control-label">
+              答案4&nbsp;
+            </div>
+            <div class="col-md-10 input-wrapper">
+              <input type="text" class="form-control required" name="inputAnswer4">
+            </div>
+          </div>
 
-					<p>&nbsp;</p>
+          <p>&nbsp;</p>
 
-					<div class="col-md-10 col-md-offset-2">
-						<p style="color: #ccc;">請注意，題目經審核後才會出現</p>
-					</div>
+          <div class="col-md-10 col-md-offset-2">
+            <p style="color: #ccc;">請注意，題目經審核後才會出現</p>
+          </div>
 
-					<p>&nbsp;</p>
+          <p>&nbsp;</p>
 
-					<div class="form-group">
-						<div class="col-md-8 col-md-offset-2">
-							<button type="submit" class="btn btn-primary btn-lg btn-submit">送出</button>
-							<button type="reset"  class="btn btn-lg btn-reset" style="display: none">清掉再來一題</button>
-						</div>
-					</div>
+          <div class="form-group">
+            <div class="col-md-8 col-md-offset-2">
+              <button type="submit" class="btn btn-primary btn-lg btn-submit">送出</button>
+              <button type="reset"  class="btn btn-lg btn-reset" style="display: none">清掉再來一題</button>
+            </div>
+          </div>
 
-					<p>&nbsp;</p>
+          <p>&nbsp;</p>
 
-				</form>
-			</div>
-		</div>
-	</div>
-	<div class="clearfix"></div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="clearfix"></div>
 
-	<footer class="navbar-bottom navbar navbar-inverse">
-		<div class="container">
-			<div class="row">
-				<ul>
-					<li>
-						<a href="./">國軍姿勢王</a>
-					</li>
-					<li>
-						<a href="./">首頁</a>
-					</li>
-					<li>
-						<a href="#">題目投稿</a>
-					</li>
-					<li>
-						<a href="./about.html">關於</a>
-					</li>
-					<li>
-						<div class="fb-like" data-href="http://osk2.me/armyquiz" data-width="45" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>
-					</li>
-					<li class="pull-right hidden-sm hidden-xs">
-						<a href="https://osk2.me" target="_blank" class="text-muted">By osk2</a>
-					</li>
-					<li class="hidden-md hidden-lg">
-						<a href="https://osk2.me" target="_blank" class="text-muted">By osk2</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</footer>
+  <footer class="navbar-bottom navbar navbar-inverse">
+    <div class="container">
+      <div class="row">
+        <ul>
+          <li>
+            <a href="./">國軍姿勢王</a>
+          </li>
+          <li>
+            <a href="./">首頁</a>
+          </li>
+          <li>
+            <a href="#">題目投稿</a>
+          </li>
+          <li>
+            <a href="./about.html">關於</a>
+          </li>
+          <li>
+            <div class="fb-like" data-href="http://osk2.me/armyquiz" data-width="45" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>
+          </li>
+          <li class="pull-right hidden-sm hidden-xs">
+            <a href="https://osk2.me" target="_blank" class="text-muted">By osk2</a>
+          </li>
+          <li class="hidden-md hidden-lg">
+            <a href="https://osk2.me" target="_blank" class="text-muted">By osk2</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
 
 </body>
-	<script src="//cdn.jsdelivr.net/jquery/2.2.4/jquery.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-	<script src="//cdn.jsdelivr.net/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=" crossorigin="anonymous"></script>
-	<script src="//cdn.jsdelivr.net/sweetalert2/6.4.3/sweetalert2.min.js" integrity="sha256-MQVREJ+jiOGqckLgCkyPOq0mBY9Gc6+Pdikse5SOzPo=" crossorigin="anonymous"></script>
-	<script src="js/contact.js?160428"></script>
+  <script src="//cdn.jsdelivr.net/jquery/2.2.4/jquery.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+  <script src="//cdn.jsdelivr.net/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=" crossorigin="anonymous"></script>
+  <script src="//cdn.jsdelivr.net/sweetalert2/6.4.3/sweetalert2.min.js" integrity="sha256-MQVREJ+jiOGqckLgCkyPOq0mBY9Gc6+Pdikse5SOzPo=" crossorigin="anonymous"></script>
+  <script src="js/contact.js?160428"></script>
 </html>

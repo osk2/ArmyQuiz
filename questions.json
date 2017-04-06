@@ -1,778 +1,800 @@
 [
-	{
-		"question": "在軍中犯錯如何才能自保或降低傷害？",
-		"provider": "",
-		"answers": [
-			{
-				"title": "一起錯",
-				"correct": true,
-				"description": "跟別人一樣才是當兵自保之道"
-			},
-			{
-				"title": "自己扛",
-				"correct": false,
-				"description": "是當兵當傻了嗎？"
-			},
-			{
-				"title": "賴給同梯",
-				"correct": false,
-				"description": "也不是不行，只是會黑到發亮"
-			},
-			{
-				"title": "裝死到底",
-				"correct": false,
-				"description": "最好不要被發現，不然一定黑到發亮"
-			}
-		]
-	},
-	{
-		"question": "發防毒面具時應該怎麼挑？",
-		"provider": "",
-		"answers": [
-			{
-				"title": "拿壞的",
-				"correct": true,
-				"description": "不能用的才是最好用的"
-			},
-			{
-				"title": "拿最好的",
-				"correct": false,
-				"description": "傻傻的，拿最好的什麼任務都逃不了"
-			},
-			{
-				"title": "多拿一份",
-				"correct": false,
-				"description": "是腦袋哪裡有問題嗎？"
-			},
-			{
-				"title": "打死不拿",
-				"correct": false,
-				"description": "勇氣可嘉"
-			}
-		]
-	},
-	{
-		"question": "請問下列防治中暑觀念何者正確？",
-		"provider": "",
-		"answers": [
-			{
-				"title": "隨身攜帶中暑防治小卡",
-				"correct": true,
-				"description": "隨身攜帶保平安，比喝水喝水300cc還有效"
-			},
-			{
-				"title": "適度補充水分",
-				"correct": false,
-				"description": "乖寶寶，可惜你是在當兵"
-			},
-			{
-				"title": "隨時注意臨兵狀況",
-				"correct": false,
-				"description": "還是別浪費時間，去投飲料抽煙比較實際"
-			},
-			{
-				"title": "掛紅旗時禁止操課",
-				"correct": false,
-				"description": "旗子只是裝飾品，菜逼巴"
-			}
-		]
-	},
-	{
-		"question": "補充水分時應注意什麼？",
-		"provider": "",
-		"answers": [
-			{
-				"title": "大聲喊出喝水喝水300cc",
-				"correct": true,
-				"description": "有喊有保佑，喝水只是形式"
-			},
-			{
-				"title": "適度飲水不過量",
-				"correct": false,
-				"description": "喝水只是形式啊孩子"
-			},
-			{
-				"title": "水源是否乾淨",
-				"correct": false,
-				"description": "乖乖水都在喝了，乾淨什麼的都不是重點"
-			},
-			{
-				"title": "班長是否在身邊",
-				"correct": false,
-				"description": "真的有怕成這樣嗎"
-			}
-		]
-	},
-	{
-		"question": "下列關於當兵的敘述何者錯誤？",
-		"provider": "",
-		"answers": [
-			{
-				"title": "練的比熊壯",
-				"correct": true,
-				"description": "真的是想太多了"
-			},
-			{
-				"title": "起的比雞早",
-				"correct": false,
-				"description": "沒有睡眠可言的悲哀"
-			},
-			{
-				"title": "做的比牛累",
-				"correct": false,
-				"description": "牛都沒你這麼累"
-			},
-			{
-				"title": "吃的比豬差",
-				"correct": false,
-				"description": "餐餐餿水也只有你吃的下了"
-			}
-		]
-	},
-	{
-		"question": "義務役一年役期中應該學會的是？",
-		"provider": "",
-		"answers": [
-			{
-				"title": "推拖閃躲飄",
-				"correct": true,
-				"description": "全部技能點都點在這就對了"
-			},
-			{
-				"title": "沖脫泡蓋送",
-				"correct": false,
-				"description": "想轉診其實有更簡單的辦法"
-			},
-			{
-				"title": "哭鬧加上吊",
-				"correct": false,
-				"description": "驗退還是要回來還的"
-			},
-			{
-				"title": "叫叫ABC",
-				"correct": false,
-				"description": "當兵壓力真的很大，自己在幹嗎都不知道"
-			}
-		]
-	},
-	{
-		"question": "戰鬥時遇突發狀況應如何處置？",
-		"provider": "",
-		"answers": [
-			{
-				"title": "舉手報告班長並詢問如何處置",
-				"correct": true,
-				"description": "不問會被狗幹"
-			},
-			{
-				"title": "先進入掩蔽物後方",
-				"correct": false,
-				"description": "自以為是什麼美國大兵嗎？"
-			},
-			{
-				"title": "成戰鬥蹲姿並持槍警戒",
-				"correct": false,
-				"description": "其實你根本沒有槍，掃把是沒辦法警戒滴"
-			},
-			{
-				"title": "迅速回報並請求支援",
-				"correct": false,
-				"description": "你確定無線電會通嗎？"
-			}
-		]
-	},
-	{
-		"question": "當敵機一早轟炸營區時，我軍應對的首要之務為何?",
-		"provider": "五星上將",
-		"answers": [
-			{
-				"title": "把棉被摺好並整好內務",
-				"correct": true
-			},
-			{
-				"title": "展開防空防衛作戰",
-				"correct": false
-			},
-			{
-				"title": "聯絡友軍請求支援",
-				"correct": false
-			},
-			{
-				"title": "退入掩體中以保存戰力",
-				"correct": false
-			}
-		]
-	},
-	{
-		"question": "高裝檢時多餘料件該如何處置？",
-		"provider": "winged",
-		"answers": [
-			{
-				"title": "丟化糞池",
-				"correct": true
-			},
-			{
-				"title": "通報經理",
-				"correct": false
-			},
-			{
-				"title": "照實紀錄",
-				"correct": false
-			},
-			{
-				"title": "裝死不認",
-				"correct": false
-			}
-		]
-	},
-	{
-		"question": "車輛行駛前五油三水該如何檢查？",
-		"provider": "少將駕駛兵",
-		"answers": [
-			{
-				"title": "敲敲蓋子做做樣子",
-				"correct": true
-			},
-			{
-				"title": "打開蓋子確認是否足量",
-				"correct": false
-			},
-			{
-				"title": "隨便看看就好",
-				"correct": false
-			},
-			{
-				"title": "叫班長檢查",
-				"correct": false
-			}
-		]
-	},
-	{
-		"question": "大兵日記寫不出來，該怎麼辦？",
-		"provider": "東東",
-		"answers": [
-			{
-				"title": "抄奮鬥月刊",
-				"correct": true
-			},
-			{
-				"title": "偷抄鄰兵的",
-				"correct": false
-			},
-			{
-				"title": "抄青年日報",
-				"correct": false
-			},
-			{
-				"title": "抄中國時報",
-				"correct": false
-			}
-		]
-	},
-	{
-		"question": "查哨時該做什麼？",
-		"provider": "下士副砲長",
-		"answers": [
-			{
-				"title": "站住口令誰",
-				"correct": true
-			},
-			{
-				"title": "我不是故意的",
-				"correct": false
-			},
-			{
-				"title": "舉手敬禮長官好",
-				"correct": false
-			},
-			{
-				"title": "當作沒看到",
-				"correct": false
-			}
-		]
-	},
-	{
-		"question": "站哨遇到不明人士意圖闖入應該如何處置？",
-		"provider": "",
-		"answers": [
-			{
-				"title": "大聲背誦用棍時機",
-				"correct": true
-			},
-			{
-				"title": "迅速成用槍姿勢警戒",
-				"correct": false
-			},
-			{
-				"title": "回報並請求支援",
-				"correct": false
-			},
-			{
-				"title": "隨便他進出",
-				"correct": false
-			}
-		]
-	},
-	{
-		"question": "遇到升降旗時應該？",
-		"provider": "",
-		"answers": [
-			{
-				"title": "迅速躲進室內",
-				"correct": true
-			},
-			{
-				"title": "立正並舉手敬禮",
-				"correct": false
-			},
-			{
-				"title": "大聲送唱國歌",
-				"correct": false
-			},
-			{
-				"title": "跪下痛哭流涕",
-				"correct": false
-			}
-		]
-	},
-	{
-		"question": "智慧手機使用規定何者正確？",
-		"provider": "Johnny",
-		"answers": [
-			{
-				"title": "不要被發現都好",
-				"correct": true
-			},
-			{
-				"title": "依規定申請管制標籤",
-				"correct": false
-			},
-			{
-				"title": "只在開放區域使用",
-				"correct": false
-			},
-			{
-				"title": "關閉GPS功能",
-				"correct": false
-			}
-		]
-	},
-	{
-		"question": "發生戰事時，早上6點應該做什麼？",
-		"provider": "564屏東彭于晏",
-		"answers": [
-			{
-				"title": "全連集合場早點名",
-				"correct": true
-			},
-			{
-				"title": "領槍上戰場",
-				"correct": false
-			},
-			{
-				"title": "時刻保持戒備",
-				"correct": false
-			},
-			{
-				"title": "冷靜分析敵情",
-				"correct": false
-			}
-		]
-	},
-	{
-		"question": "志願役實施外膳宿時，在營的義務役有何福利？",
-		"provider": "Monstercock",
-		"answers": [
-			{
-				"title": "全部皆是",
-				"correct": true
-			},
-			{
-				"title": "掃廁所",
-				"correct": false
-			},
-			{
-				"title": "倒垃圾",
-				"correct": false
-			},
-			{
-				"title": "出公差",
-				"correct": false
-			}
-		]
-	},
-	{
-		"question": "下基地時需注意什麼？",
-		"provider": "Monstercock",
-		"answers": [
-			{
-				"title": "準備大量零錢打小蜜蜂",
-				"correct": true
-			},
-			{
-				"title": "個人裝備是否到齊",
-				"correct": false
-			},
-			{
-				"title": "紮實訓練迎接鑑測",
-				"correct": false
-			},
-			{
-				"title": "打好野戰背包",
-				"correct": false
-			}
-		]
-	},
-	{
-		"question": "睡過頭該如何處置",
-		"provider": "陳猴子",
-		"answers": [
-			{
-				"title": "人有三急去廁所",
-				"correct": true
-			},
-			{
-				"title": "鄰兵沒叫我起床",
-				"correct": false
-			},
-			{
-				"title": "裝死繼續睡",
-				"correct": false
-			},
-			{
-				"title": "我以為有補眠",
-				"correct": false
-			}
-		]
-	},
-	{
-		"question": "上戰場時應注意？",
-		"provider": "775陸戰菜B8",
-		"answers": [
-			{
-				"title": "高端槍對腳步",
-				"correct": true
-			},
-			{
-				"title": "視死如歸的心",
-				"correct": false
-			},
-			{
-				"title": "注意敵軍動向",
-				"correct": false
-			},
-			{
-				"title": "聽從班長命令",
-				"correct": false
-			}
-		]
-	},
-	{
-		"question": "遇到軍中霸凌，單兵如何處置？",
-		"provider": "YOYO KUO",
-		"answers": [
-			{
-				"title": "打1985再爆蘋果",
-				"correct": true
-			},
-			{
-				"title": "打給媽媽哭訴",
-				"correct": false
-			},
-			{
-				"title": "逐級反應給長官",
-				"correct": false
-			},
-			{
-				"title": "打給麥當勞歡樂送",
-				"correct": false
-			}
-		]
-	},
+  {
+    "question": "在軍中犯錯如何才能自保或降低傷害？",
+    "provider": "",
+    "answers": [
+      {
+        "title": "一起錯",
+        "correct": true,
+        "description": "跟別人一樣才是當兵自保之道"
+      },
+      {
+        "title": "自己扛",
+        "correct": false,
+        "description": "是當兵當傻了嗎？"
+      },
+      {
+        "title": "賴給同梯",
+        "correct": false,
+        "description": "也不是不行，只是會黑到發亮"
+      },
+      {
+        "title": "裝死到底",
+        "correct": false,
+        "description": "最好不要被發現，不然一定黑到發亮"
+      }
+    ]
+  },
+  {
+    "question": "發防毒面具時應該怎麼挑？",
+    "provider": "",
+    "answers": [
+      {
+        "title": "拿壞的",
+        "correct": true,
+        "description": "不能用的才是最好用的"
+      },
+      {
+        "title": "拿最好的",
+        "correct": false,
+        "description": "傻傻的，拿最好的什麼任務都逃不了"
+      },
+      {
+        "title": "多拿一份",
+        "correct": false,
+        "description": "是腦袋哪裡有問題嗎？"
+      },
+      {
+        "title": "打死不拿",
+        "correct": false,
+        "description": "勇氣可嘉"
+      }
+    ]
+  },
+  {
+    "question": "請問下列防治中暑觀念何者正確？",
+    "provider": "",
+    "answers": [
+      {
+        "title": "隨身攜帶中暑防治小卡",
+        "correct": true,
+        "description": "隨身攜帶保平安，比喝水喝水300cc還有效"
+      },
+      {
+        "title": "適度補充水分",
+        "correct": false,
+        "description": "乖寶寶，可惜你是在當兵"
+      },
+      {
+        "title": "隨時注意臨兵狀況",
+        "correct": false,
+        "description": "還是別浪費時間，去投飲料抽煙比較實際"
+      },
+      {
+        "title": "掛紅旗時禁止操課",
+        "correct": false,
+        "description": "旗子只是裝飾品，菜逼巴"
+      }
+    ]
+  },
+  {
+    "question": "補充水分時應注意什麼？",
+    "provider": "",
+    "answers": [
+      {
+        "title": "大聲喊出喝水喝水300cc",
+        "correct": true,
+        "description": "有喊有保佑，喝水只是形式"
+      },
+      {
+        "title": "適度飲水不過量",
+        "correct": false,
+        "description": "喝水只是形式啊孩子"
+      },
+      {
+        "title": "水源是否乾淨",
+        "correct": false,
+        "description": "乖乖水都在喝了，乾淨什麼的都不是重點"
+      },
+      {
+        "title": "班長是否在身邊",
+        "correct": false,
+        "description": "真的有怕成這樣嗎"
+      }
+    ]
+  },
+  {
+    "question": "下列關於當兵的敘述何者錯誤？",
+    "provider": "",
+    "answers": [
+      {
+        "title": "練的比熊壯",
+        "correct": true,
+        "description": "真的是想太多了"
+      },
+      {
+        "title": "起的比雞早",
+        "correct": false,
+        "description": "沒有睡眠可言的悲哀"
+      },
+      {
+        "title": "做的比牛累",
+        "correct": false,
+        "description": "牛都沒你這麼累"
+      },
+      {
+        "title": "吃的比豬差",
+        "correct": false,
+        "description": "餐餐餿水也只有你吃的下了"
+      }
+    ]
+  },
+  {
+    "question": "義務役一年役期中應該學會的是？",
+    "provider": "",
+    "answers": [
+      {
+        "title": "推拖閃躲飄",
+        "correct": true,
+        "description": "全部技能點都點在這就對了"
+      },
+      {
+        "title": "沖脫泡蓋送",
+        "correct": false,
+        "description": "想轉診其實有更簡單的辦法"
+      },
+      {
+        "title": "哭鬧加上吊",
+        "correct": false,
+        "description": "驗退還是要回來還的"
+      },
+      {
+        "title": "叫叫ABC",
+        "correct": false,
+        "description": "當兵壓力真的很大，自己在幹嗎都不知道"
+      }
+    ]
+  },
+  {
+    "question": "戰鬥時遇突發狀況應如何處置？",
+    "provider": "",
+    "answers": [
+      {
+        "title": "舉手報告班長並詢問如何處置",
+        "correct": true,
+        "description": "不問會被狗幹"
+      },
+      {
+        "title": "先進入掩蔽物後方",
+        "correct": false,
+        "description": "自以為是什麼美國大兵嗎？"
+      },
+      {
+        "title": "成戰鬥蹲姿並持槍警戒",
+        "correct": false,
+        "description": "其實你根本沒有槍，掃把是沒辦法警戒滴"
+      },
+      {
+        "title": "迅速回報並請求支援",
+        "correct": false,
+        "description": "你確定無線電會通嗎？"
+      }
+    ]
+  },
+  {
+    "question": "當敵機一早轟炸營區時，我軍應對的首要之務為何?",
+    "provider": "五星上將",
+    "answers": [
+      {
+        "title": "把棉被摺好並整好內務",
+        "correct": true
+      },
+      {
+        "title": "展開防空防衛作戰",
+        "correct": false
+      },
+      {
+        "title": "聯絡友軍請求支援",
+        "correct": false
+      },
+      {
+        "title": "退入掩體中以保存戰力",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "高裝檢時多餘料件該如何處置？",
+    "provider": "winged",
+    "answers": [
+      {
+        "title": "丟化糞池",
+        "correct": true
+      },
+      {
+        "title": "通報經理",
+        "correct": false
+      },
+      {
+        "title": "照實紀錄",
+        "correct": false
+      },
+      {
+        "title": "裝死不認",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "車輛行駛前五油三水該如何檢查？",
+    "provider": "少將駕駛兵",
+    "answers": [
+      {
+        "title": "敲敲蓋子做做樣子",
+        "correct": true
+      },
+      {
+        "title": "打開蓋子確認是否足量",
+        "correct": false
+      },
+      {
+        "title": "隨便看看就好",
+        "correct": false
+      },
+      {
+        "title": "叫班長檢查",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "大兵日記寫不出來，該怎麼辦？",
+    "provider": "東東",
+    "answers": [
+      {
+        "title": "抄奮鬥月刊",
+        "correct": true
+      },
+      {
+        "title": "偷抄鄰兵的",
+        "correct": false
+      },
+      {
+        "title": "抄青年日報",
+        "correct": false
+      },
+      {
+        "title": "抄中國時報",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "查哨時該做什麼？",
+    "provider": "下士副砲長",
+    "answers": [
+      {
+        "title": "站住口令誰",
+        "correct": true
+      },
+      {
+        "title": "我不是故意的",
+        "correct": false
+      },
+      {
+        "title": "舉手敬禮長官好",
+        "correct": false
+      },
+      {
+        "title": "當作沒看到",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "站哨遇到不明人士意圖闖入應該如何處置？",
+    "provider": "",
+    "answers": [
+      {
+        "title": "大聲背誦用棍時機",
+        "correct": true
+      },
+      {
+        "title": "迅速成用槍姿勢警戒",
+        "correct": false
+      },
+      {
+        "title": "回報並請求支援",
+        "correct": false
+      },
+      {
+        "title": "隨便他進出",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "遇到升降旗時應該？",
+    "provider": "",
+    "answers": [
+      {
+        "title": "迅速躲進室內",
+        "correct": true
+      },
+      {
+        "title": "立正並舉手敬禮",
+        "correct": false
+      },
+      {
+        "title": "大聲送唱國歌",
+        "correct": false
+      },
+      {
+        "title": "跪下痛哭流涕",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "智慧手機使用規定何者正確？",
+    "provider": "Johnny",
+    "answers": [
+      {
+        "title": "不要被發現都好",
+        "correct": true
+      },
+      {
+        "title": "依規定申請管制標籤",
+        "correct": false
+      },
+      {
+        "title": "只在開放區域使用",
+        "correct": false
+      },
+      {
+        "title": "關閉GPS功能",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "發生戰事時，早上6點應該做什麼？",
+    "provider": "564屏東彭于晏",
+    "answers": [
+      {
+        "title": "全連集合場早點名",
+        "correct": true
+      },
+      {
+        "title": "領槍上戰場",
+        "correct": false
+      },
+      {
+        "title": "時刻保持戒備",
+        "correct": false
+      },
+      {
+        "title": "冷靜分析敵情",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "志願役實施外膳宿時，在營的義務役有何福利？",
+    "provider": "Monstercock",
+    "answers": [
+      {
+        "title": "全部皆是",
+        "correct": true
+      },
+      {
+        "title": "掃廁所",
+        "correct": false
+      },
+      {
+        "title": "倒垃圾",
+        "correct": false
+      },
+      {
+        "title": "出公差",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "下基地時需注意什麼？",
+    "provider": "Monstercock",
+    "answers": [
+      {
+        "title": "準備大量零錢打小蜜蜂",
+        "correct": true
+      },
+      {
+        "title": "個人裝備是否到齊",
+        "correct": false
+      },
+      {
+        "title": "紮實訓練迎接鑑測",
+        "correct": false
+      },
+      {
+        "title": "打好野戰背包",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "睡過頭該如何處置",
+    "provider": "陳猴子",
+    "answers": [
+      {
+        "title": "人有三急去廁所",
+        "correct": true
+      },
+      {
+        "title": "鄰兵沒叫我起床",
+        "correct": false
+      },
+      {
+        "title": "裝死繼續睡",
+        "correct": false
+      },
+      {
+        "title": "我以為有補眠",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "上戰場時應注意？",
+    "provider": "775陸戰菜B8",
+    "answers": [
+      {
+        "title": "高端槍對腳步",
+        "correct": true
+      },
+      {
+        "title": "視死如歸的心",
+        "correct": false
+      },
+      {
+        "title": "注意敵軍動向",
+        "correct": false
+      },
+      {
+        "title": "聽從班長命令",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "遇到軍中霸凌，單兵如何處置？",
+    "provider": "YOYO KUO",
+    "answers": [
+      {
+        "title": "打1985再爆蘋果",
+        "correct": true
+      },
+      {
+        "title": "打給媽媽哭訴",
+        "correct": false
+      },
+      {
+        "title": "逐級反應給長官",
+        "correct": false
+      },
+      {
+        "title": "打給麥當勞歡樂送",
+        "correct": false
+      }
+    ]
+  },
     {
-		"question": "割草要注意什麼",
-		"provider": "BlueOmaster",
-		"answers": [
-			{
-				"title": "不要割完",
-				"correct": true
-			},
-			{
-				"title": "要戴護具",
-				"correct": false
-			},
-			{
-				"title": "機油適量",
-				"correct": false
-			},
-			{
-				"title": "小心石頭",
-				"correct": false
-			}
-		]
-	},
-	{
-		"question": "被排到夜哨時該怎麼辦",
-		"provider": "皮皮",
-		"answers": [
-			{
-				"title": "裝忙裝病更換",
-				"correct": true
-			},
-			{
-				"title": "自認倒楣自己站",
-				"correct": false
-			},
-			{
-				"title": "站哨是種榮耀",
-				"correct": false
-			},
-			{
-				"title": "上一班續站",
-				"correct": false
-			}
-		]
-	},
-	{
-		"question": "打仗時如遇緊急出動時該做什麼？",
-		"provider": "Qoo",
-		"answers": [
-			{
-				"title": "先開派車單才能出發",
-				"correct": true
-			},
-			{
-				"title": "不用多說立即出動",
-				"correct": false
-			},
-			{
-				"title": "先看地圖路線",
-				"correct": false
-			},
-			{
-				"title": "等待指示",
-				"correct": false
-			}
-		]
-	},
-	{
-		"question": "打仗時下大雨該怎麼辦",
-		"provider": "付興書宏打",
-		"answers": [
-			{
-				"title": "確保水溝無積水",
-				"correct": true
-			},
-			{
-				"title": "槍口朝下防浸水",
-				"correct": false
-			},
-			{
-				"title": "向幹部反應",
-				"correct": false
-			},
-			{
-				"title": "穿雨衣誓死抗敵",
-				"correct": false
-			}
-		]
-	},
-	{
-		"question": "上戰場衝鋒陷陣前，幹部們應先檢查各兵?",
-		"provider": "步二營士兵督導長",
-		"answers": [
-			{
-				"title": "口袋內務、頭髮與皮鞋",
-				"correct": true
-			},
-			{
-				"title": "武器裝備",
-				"correct": false
-			},
-			{
-				"title": "身心狀況",
-				"correct": false
-			},
-			{
-				"title": "是否了解作戰計畫",
-				"correct": false
-			}
-		]
-	},
-	{
-		"question": "軍中哪份資料最真實",
-		"provider": "步二營士兵督導長",
-		"answers": [
-			{
-				"title": "哨表",
-				"correct": true
-			},
-			{
-				"title": "簽到表",
-				"correct": false
-			},
-			{
-				"title": "督導資料",
-				"correct": false
-			},
-			{
-				"title": "約談紀錄",
-				"correct": false
-			}
-		]
-	},
-	{
-		"question": "何時是展現榮譽的最佳時候？",
-		"provider": "5星上將",
-		"answers": [
-			{
-				"title": "放18",
-				"correct": true
-			},
-			{
-				"title": "操課",
-				"correct": false
-			},
-			{
-				"title": "演習",
-				"correct": false
-			},
-			{
-				"title": "簽志願役",
-				"correct": false
-			}
-		]
-	},
-	{
-		"question": "當兵只有什麼是真的",
-		"provider": "叫長官",
-		"answers": [
-			{
-				"title": "退伍令",
-				"correct": true
-			},
-			{
-				"title": "長官的噓寒問暖",
-				"correct": false
-			},
-			{
-				"title": "學長的諄諄教誨",
-				"correct": false
-			},
-			{
-				"title": "女友的信誓旦旦",
-				"correct": false
-			}
-		]
-	},
-	{
-		"question": "新兵洗澡時沒熱水怎辦",
-		"provider": "升不上中士的下士",
-		"answers": [
-			{
-				"title": "妳看過妳媽洗菜用熱水呀",
-				"correct": true
-			},
-			{
-				"title": "找班長反應",
-				"correct": false
-			},
-			{
-				"title": "打1985",
-				"correct": false
-			},
-			{
-				"title": "直接洗冷水",
-				"correct": false
-			}
-		]
-	},
-	{
-		"question": "防毒面具攜行袋使用前應注意什麼",
-		"provider": "松本奇",
-		"answers": [
-			{
-				"title": "零食糖果是否補齊塞滿",
-				"correct": true
-			},
-			{
-				"title": "濾毒罐是否過期",
-				"correct": false
-			},
-			{
-				"title": "調整帶是否功能正常無缺少零件",
-				"correct": false
-			},
-			{
-				"title": "攜行袋外觀及背帶是否無破損",
-				"correct": false
-			}
-		]
-	},
-	{
-		"question": "行進時遇到長官正確表現為何？",
-		"provider": "",
-		"answers": [
-			{
-				"title": "繞道而行",
-				"correct": true
-			},
-			{
-				"title": "敬禮，長官好",
-				"correct": false
-			},
-			{
-				"title": "向右～看，長官好",
-				"correct": false
-			},
-			{
-				"title": "兩兩並肩，三人成行",
-				"correct": false
-			}
-		]
-	},
-	{
-		"question": "休假預劃表該怎麼寫？",
-		"provider": "四三砲狂站士",
-		"answers": [
-			{
-				"title": "一律在家休息睡覺",
-				"correct": true
-			},
-			{
-				"title": "跟朋友出去打球",
-				"correct": false
-			},
-			{
-				"title": "騎機車出去兜風",
-				"correct": false
-			},
-			{
-				"title": "去外地過夜遊玩",
-				"correct": false
-			}
-		]
-	},
-	{
-		"question": "當打飯班應注意何事？",
-		"provider": "爛帳",
-		"answers": [
-			{
-				"title": "向值星報補休",
-				"correct": true
-			},
-			{
-				"title": "均衡每人飯菜量",
-				"correct": false
-			},
-			{
-				"title": "打連級長官餐盤",
-				"correct": false
-			},
-			{
-				"title": "配餐盤整潔",
-				"correct": false
-			}
-		]
-	}
+    "question": "割草要注意什麼",
+    "provider": "BlueOmaster",
+    "answers": [
+      {
+        "title": "不要割完",
+        "correct": true
+      },
+      {
+        "title": "要戴護具",
+        "correct": false
+      },
+      {
+        "title": "機油適量",
+        "correct": false
+      },
+      {
+        "title": "小心石頭",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "被排到夜哨時該怎麼辦",
+    "provider": "皮皮",
+    "answers": [
+      {
+        "title": "裝忙裝病更換",
+        "correct": true
+      },
+      {
+        "title": "自認倒楣自己站",
+        "correct": false
+      },
+      {
+        "title": "站哨是種榮耀",
+        "correct": false
+      },
+      {
+        "title": "上一班續站",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "打仗時如遇緊急出動時該做什麼？",
+    "provider": "Qoo",
+    "answers": [
+      {
+        "title": "先開派車單才能出發",
+        "correct": true
+      },
+      {
+        "title": "不用多說立即出動",
+        "correct": false
+      },
+      {
+        "title": "先看地圖路線",
+        "correct": false
+      },
+      {
+        "title": "等待指示",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "打仗時下大雨該怎麼辦",
+    "provider": "付興書宏打",
+    "answers": [
+      {
+        "title": "確保水溝無積水",
+        "correct": true
+      },
+      {
+        "title": "槍口朝下防浸水",
+        "correct": false
+      },
+      {
+        "title": "向幹部反應",
+        "correct": false
+      },
+      {
+        "title": "穿雨衣誓死抗敵",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "上戰場衝鋒陷陣前，幹部們應先檢查各兵?",
+    "provider": "步二營士兵督導長",
+    "answers": [
+      {
+        "title": "口袋內務、頭髮與皮鞋",
+        "correct": true
+      },
+      {
+        "title": "武器裝備",
+        "correct": false
+      },
+      {
+        "title": "身心狀況",
+        "correct": false
+      },
+      {
+        "title": "是否了解作戰計畫",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "軍中哪份資料最真實",
+    "provider": "步二營士兵督導長",
+    "answers": [
+      {
+        "title": "哨表",
+        "correct": true
+      },
+      {
+        "title": "簽到表",
+        "correct": false
+      },
+      {
+        "title": "督導資料",
+        "correct": false
+      },
+      {
+        "title": "約談紀錄",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "何時是展現榮譽的最佳時候？",
+    "provider": "5星上將",
+    "answers": [
+      {
+        "title": "放18",
+        "correct": true
+      },
+      {
+        "title": "操課",
+        "correct": false
+      },
+      {
+        "title": "演習",
+        "correct": false
+      },
+      {
+        "title": "簽志願役",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "當兵只有什麼是真的",
+    "provider": "叫長官",
+    "answers": [
+      {
+        "title": "退伍令",
+        "correct": true
+      },
+      {
+        "title": "長官的噓寒問暖",
+        "correct": false
+      },
+      {
+        "title": "學長的諄諄教誨",
+        "correct": false
+      },
+      {
+        "title": "女友的信誓旦旦",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "新兵洗澡時沒熱水怎辦",
+    "provider": "升不上中士的下士",
+    "answers": [
+      {
+        "title": "妳看過妳媽洗菜用熱水呀",
+        "correct": true
+      },
+      {
+        "title": "找班長反應",
+        "correct": false
+      },
+      {
+        "title": "打1985",
+        "correct": false
+      },
+      {
+        "title": "直接洗冷水",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "防毒面具攜行袋使用前應注意什麼",
+    "provider": "松本奇",
+    "answers": [
+      {
+        "title": "零食糖果是否補齊塞滿",
+        "correct": true
+      },
+      {
+        "title": "濾毒罐是否過期",
+        "correct": false
+      },
+      {
+        "title": "調整帶是否功能正常無缺少零件",
+        "correct": false
+      },
+      {
+        "title": "攜行袋外觀及背帶是否無破損",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "行進時遇到長官正確表現為何？",
+    "provider": "",
+    "answers": [
+      {
+        "title": "繞道而行",
+        "correct": true
+      },
+      {
+        "title": "敬禮，長官好",
+        "correct": false
+      },
+      {
+        "title": "向右～看，長官好",
+        "correct": false
+      },
+      {
+        "title": "兩兩並肩，三人成行",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "休假預劃表該怎麼寫？",
+    "provider": "四三砲狂站士",
+    "answers": [
+      {
+        "title": "一律在家休息睡覺",
+        "correct": true
+      },
+      {
+        "title": "跟朋友出去打球",
+        "correct": false
+      },
+      {
+        "title": "騎機車出去兜風",
+        "correct": false
+      },
+      {
+        "title": "去外地過夜遊玩",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "當打飯班應注意何事？",
+    "provider": "爛帳",
+    "answers": [
+      {
+        "title": "向值星報補休",
+        "correct": true
+      },
+      {
+        "title": "均衡每人飯菜量",
+        "correct": false
+      },
+      {
+        "title": "打連級長官餐盤",
+        "correct": false
+      },
+      {
+        "title": "配餐盤整潔",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "被長官無理責難時，該如何回應",
+    "provider": "菜頭叔叔",
+    "answers": [
+      {
+        "title": "是！是！是！好！好！好！",
+        "correct": true
+      },
+      {
+        "title": "就事論事，力爭到底",
+        "correct": false
+      },
+      {
+        "title": "找更高級的長官哭訴",
+        "correct": false
+      },
+      {
+        "title": "沉默是金，安靜被罵",
+        "correct": false
+      }
+    ]
+  },
 ]
