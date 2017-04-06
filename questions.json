@@ -797,4 +797,48 @@
       }
     ]
   },
+  {
+    "question": "戰爭需射擊時，我軍單位因優先準備？",
+    "provider": "菜蟲１號",
+    "answers": [
+      {
+        "title": "耳塞、射擊手簿",
+        "correct": true
+      },
+      {
+        "title": "彈藥武器是否可供射擊",
+        "correct": false
+      },
+      {
+        "title": "我方地形地利可否掩護",
+        "correct": false
+      },
+      {
+        "title": "敵軍動態及武裝之掌握",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "關於廁所使用何者為真？",
+    "provider": "金門戰到屎",
+    "answers": [
+      {
+        "title": "檢查用",
+        "correct": true
+      },
+      {
+        "title": "大小便用",
+        "correct": false
+      },
+      {
+        "title": "給長官用",
+        "correct": false
+      },
+      {
+        "title": "學長使用",
+        "correct": false
+      }
+    ]
+  }
 ]
