@@ -840,5 +840,49 @@
         "correct": false
       }
     ]
+  },
+  {
+    "question": "站大門看到喝醉的營長返營時應如何處置",
+    "provider": "冬瓜呱呱",
+    "answers": [
+      {
+        "title": "眼睛業障重",
+        "correct": true
+      },
+      {
+        "title": "仔細盤查",
+        "correct": false
+      },
+      {
+        "title": "回報幹部",
+        "correct": false
+      },
+      {
+        "title": "鳴槍示警",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "鋼盔為什麼總是臭的？",
+    "provider": "狗官",
+    "answers": [
+      {
+        "title": "腦袋裝大便",
+        "correct": true
+      },
+      {
+        "title": "太久沒清潔",
+        "correct": false
+      },
+      {
+        "title": "海綿墊太髒",
+        "correct": false
+      },
+      {
+        "title": "操課流汗臭",
+        "correct": false
+      }
+    ]
   }
 ]
