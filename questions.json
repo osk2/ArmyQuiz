@@ -884,5 +884,27 @@
         "correct": false
       }
     ]
+  },
+  {
+    "question": "帶隊答數時何者發音正確？",
+    "provider": "鍋貼役大隊長",
+    "answers": [
+      {
+        "title": "一偶 一偶 一ㄜ！",
+        "correct": true
+      },
+      {
+        "title": "么兩 么兩 么兩！",
+        "correct": false
+      },
+      {
+        "title": "一二 一二 一二！",
+        "correct": false
+      },
+      {
+        "title": "左右 左右 左右！",
+        "correct": false
+      }
+    ]
   }
 ]
