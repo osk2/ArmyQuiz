@@ -906,5 +906,49 @@
         "correct": false
       }
     ]
+  },
+  {
+    "question": "當兵時什麼話最不能相信",
+    "provider": "一日甲兵終身甲塞",
+    "answers": [
+      {
+        "title": "事情早點做完早點休息",
+        "correct": true
+      },
+      {
+        "title": "這禮拜放18",
+        "correct": false
+      },
+      {
+        "title": "下課休息十分鐘",
+        "correct": false
+      },
+      {
+        "title": "明天司令部來督導",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question": "在營區內發現毒品應當如何處置",
+    "provider": "軍中沒有腦",
+    "answers": [
+      {
+        "title": "義務役安官桌前集合",
+        "correct": true
+      },
+      {
+        "title": "全營人員驗尿",
+        "correct": false
+      },
+      {
+        "title": "調查可疑人事物",
+        "correct": false
+      },
+      {
+        "title": "通報長官調查",
+        "correct": false
+      }
+    ]
   }
 ]
