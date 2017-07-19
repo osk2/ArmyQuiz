@@ -4,6 +4,7 @@ $(function() {
 
     e.preventDefault();
 
+    ga('send', 'event', 'Feedback', 'submit');
     $('.input-wrapper').removeClass('has-error');
     var flag = true;
 
@@ -42,6 +43,7 @@ $(function() {
               type: 'success'
             });
             $('.btn-reset').show();
+            ga('send', 'event', 'Feedback', 'success');
           } else {
             var error_message = '';
             if (return_data.message !== '') {
@@ -55,9 +57,11 @@ $(function() {
               confirmButtonText: '好的',
               type: 'error'
             });
+            ga('send', 'event', 'Feedback', 'serverError');
           }
         },
         error: function() {
+          ga('send', 'event', 'Feedback', 'ajaxError');
           swal({
             title: '糟糕！',
             text: '發生錯誤了，稍後再重試一次',
@@ -66,7 +70,8 @@ $(function() {
           });
         }
       });
-    }else{
+    } else {
+      ga('send', 'event', 'Feedback', 'missing');
       swal({
         title: '糟糕！',
         text: '有些必填欄位被漏掉了，趕快補齊吧',

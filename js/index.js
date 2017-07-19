@@ -3,6 +3,7 @@ $(function() {
   $('.btn-start').on('click', function() {
     $('.navbar, .wrapper').hide();
     $.Velocity.animate($('.container-quiz'), 'fadeIn', {duration: 1500}).then(function() {
+      ga('send', 'event', 'Game', 'start');
       load_question();
     });
   });
@@ -44,6 +45,7 @@ $(function() {
       current_score = parseInt(score.text());
 
       if (that.attr('data-correct') !== '1') {
+        ga('send', 'event', 'Game', 'incorrect');
         $('html').addClass('shake shake-constant');
         that.addClass('btn-danger').find('.glyphicon-remove').show();
 
@@ -57,6 +59,7 @@ $(function() {
         
         load_next_question(that);
       } else {
+        ga('send', 'event', 'Game', 'correct');
         score.prop('number', current_score).animateNumber({number: current_score + 200});
         that.addClass('btn-correct shake shake-constant').find('.glyphicon-ok').show();
         load_next_question(that);
@@ -163,6 +166,7 @@ $(function() {
 
     result_text += '<p>&nbsp;</p><a class="btn btn-lg btn-facebook" href="'+ share_url +'" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i>&nbsp;分享至 Facebook</a><p>&nbsp;</p>';
 
+    ga('send', 'event', 'Game', 'complete', score);
     $('.quiz-wrapper').html(result_text).velocity('fadeIn', {duration: 800});
     $('.container-quiz').addClass('wrapper');
     $('footer').velocity('fadeIn', {duration: 500});
