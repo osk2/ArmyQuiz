@@ -166,7 +166,7 @@ $(function() {
 
     result_text += '<p>&nbsp;</p><a class="btn btn-lg btn-facebook" href="'+ share_url +'" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i>&nbsp;分享至 Facebook</a><p>&nbsp;</p>';
 
-    ga('send', 'event', 'Game', 'complete', score);
+    ga('send', 'event', 'Game', 'complete', '', score);
     $('.quiz-wrapper').html(result_text).velocity('fadeIn', {duration: 800});
     $('.container-quiz').addClass('wrapper');
     $('footer').velocity('fadeIn', {duration: 500});
